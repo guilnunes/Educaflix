@@ -23,11 +23,11 @@
     "id": "7b51b559-8e7a-414e-bfcf-9ee71c1727f3",
     "theme_id": "f7949748-c172-4283-9c9b-8bef12855a2f",
     "kind": "video",
-    "status": "awaiting_approval",
+    "status": "approved",
     "current_generation_id": "7e220c29-420a-4886-a354-8020476e8003",
-    "approved_generation_id": "bfef5c42-4d19-458e-a011-b429b67d1de0",
+    "approved_generation_id": "7e220c29-420a-4886-a354-8020476e8003",
     "outdated": false,
-    "updated_at": "2026-11-06T20:18:00.165Z"
+    "updated_at": "2026-11-06T20:21:57.029Z"
   },
   {
     "id": "ae7591b4-4e04-41fc-8d3f-90c3745aaaeb",
