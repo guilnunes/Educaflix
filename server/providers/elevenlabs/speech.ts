@@ -25,7 +25,8 @@ export class ElevenLabsSpeechProvider implements SpeechProvider {
   constructor(
     readonly model = 'eleven_v4',
     client?: Client,
-    private readonly voiceId = process.env.ELEVENLABS_VOICE_ID || 'JBFqnCBsd6RMkjVDRZzb',
+    // Padrão: Michele (voz brasileira, calma, para vídeos explicativos).
+    private readonly voiceId = process.env.ELEVENLABS_VOICE_ID || 'FIEA0c5UHH9JnvWaQrXS',
   ) {
     this.client = client;
   }
