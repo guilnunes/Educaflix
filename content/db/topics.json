@@ -1,0 +1,62 @@
+[
+  {
+    "id": "63a306b8-af5c-4fc3-98e5-dd250414cf4e",
+    "course_id": "dc17a884-cdef-4315-aa0e-751bdbacbf9e",
+    "title": "Números e contagem",
+    "description": "Para que servem os números, como contar objetos e como comparar quantidades até 100.",
+    "bncc_unit": "Números",
+    "sort_order": 0,
+    "generation_id": "34bded56-73d6-4706-aae1-dda59e58538b",
+    "created_at": "2026-11-06T18:11:24.794Z"
+  },
+  {
+    "id": "ee8dcb6f-f5d7-41ad-82bb-3565d4851fa4",
+    "course_id": "dc17a884-cdef-4315-aa0e-751bdbacbf9e",
+    "title": "Adição e subtração",
+    "description": "Juntar, acrescentar, separar e retirar em situações do dia a dia.",
+    "bncc_unit": "Números",
+    "sort_order": 1,
+    "generation_id": "34bded56-73d6-4706-aae1-dda59e58538b",
+    "created_at": "2026-11-06T18:11:24.794Z"
+  },
+  {
+    "id": "38ea0df4-acaf-4eb4-bc73-a77739bc6443",
+    "course_id": "dc17a884-cdef-4315-aa0e-751bdbacbf9e",
+    "title": "Padrões e sequências",
+    "description": "Organizar objetos por atributos e descobrir o que vem depois numa sequência.",
+    "bncc_unit": "Álgebra",
+    "sort_order": 2,
+    "generation_id": "34bded56-73d6-4706-aae1-dda59e58538b",
+    "created_at": "2026-11-06T18:11:24.794Z"
+  },
+  {
+    "id": "3d0c4a39-acb3-479c-9bf5-376b4ffc6d26",
+    "course_id": "dc17a884-cdef-4315-aa0e-751bdbacbf9e",
+    "title": "Formas e espaço",
+    "description": "Localização no espaço e reconhecimento de figuras planas e espaciais.",
+    "bncc_unit": "Geometria",
+    "sort_order": 3,
+    "generation_id": "34bded56-73d6-4706-aae1-dda59e58538b",
+    "created_at": "2026-11-06T18:11:24.794Z"
+  },
+  {
+    "id": "d757159d-7eb9-4108-a2c0-e00e14f37a24",
+    "course_id": "dc17a884-cdef-4315-aa0e-751bdbacbf9e",
+    "title": "Medidas, tempo e dinheiro",
+    "description": "Comparar tamanhos e pesos, entender o calendário e conhecer o dinheiro brasileiro.",
+    "bncc_unit": "Grandezas e medidas",
+    "sort_order": 4,
+    "generation_id": "34bded56-73d6-4706-aae1-dda59e58538b",
+    "created_at": "2026-11-06T18:11:24.794Z"
+  },
+  {
+    "id": "d88efbd0-af91-421f-bfb8-adaa7bab82dc",
+    "course_id": "dc17a884-cdef-4315-aa0e-751bdbacbf9e",
+    "title": "Dados e acaso",
+    "description": "Noção de acaso, leitura de tabelas e gráficos simples e pesquisas com a turma.",
+    "bncc_unit": "Probabilidade e estatística",
+    "sort_order": 5,
+    "generation_id": "34bded56-73d6-4706-aae1-dda59e58538b",
+    "created_at": "2026-11-06T18:11:24.794Z"
+  }
+]

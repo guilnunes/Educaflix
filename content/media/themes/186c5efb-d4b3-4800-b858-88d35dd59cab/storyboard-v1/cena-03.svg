@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="'Baloo 2', 'Nunito', 'Trebuchet MS', 'Segoe UI', sans-serif">
+<defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8f1ff"/><stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+<rect width="1280" height="720" fill="url(#sky)"/>
+<rect x="0" y="540" width="1280" height="180" fill="#cfe9c8"/>
+<path d="M 80.0,120.0 L 82.4,126.8 L 89.5,126.9 L 83.8,131.2 L 85.9,138.1 L 80.0,134.0 L 74.1,138.1 L 76.2,131.2 L 70.5,126.9 L 77.6,126.8 Z" fill="#ff8a3d" opacity="0.5"/><path d="M 300.0,170.0 L 302.4,176.8 L 309.5,176.9 L 303.8,181.2 L 305.9,188.1 L 300.0,184.0 L 294.1,188.1 L 296.2,181.2 L 290.5,176.9 L 297.6,176.8 Z" fill="#ffc83d" opacity="0.5"/><path d="M 520.0,120.0 L 522.4,126.8 L 529.5,126.9 L 523.8,131.2 L 525.9,138.1 L 520.0,134.0 L 514.1,138.1 L 516.2,131.2 L 510.5,126.9 L 517.6,126.8 Z" fill="#4cc38a" opacity="0.5"/><path d="M 1180.0,170.0 L 1182.4,176.8 L 1189.5,176.9 L 1183.8,181.2 L 1185.9,188.1 L 1180.0,184.0 L 1174.1,188.1 L 1176.2,181.2 L 1170.5,176.9 L 1177.6,176.8 Z" fill="#e85d75" opacity="0.5"/>
+<rect x="32" y="28" rx="22" width="128" height="44" fill="#2f6fde"/>
+<text x="96" y="58" font-size="24" font-weight="700" fill="#fff" text-anchor="middle">Cena 3</text>
+<text x="180" y="60" font-size="32" font-weight="700" fill="#1d2433" text-anchor="start">O segredo: grupos de 10</text>
+<rect x="560" y="100" rx="18" width="680" height="110" fill="#264a3d" stroke="#8a6a3b" stroke-width="10"/>
+<text x="900" y="172.33333333333334" font-size="52" font-weight="700" fill="#ffffff" text-anchor="middle">10 em cada saquinho</text>
+<ellipse cx="280" cy="538" rx="120" ry="16" fill="#000" opacity="0.12"/>
+<text x="280" y="520" font-size="250" font-weight="900" text-anchor="middle" fill="#2f6fde" stroke="#ffffff" stroke-width="12" paint-order="stroke" stroke-linejoin="round">10</text>
+<circle cx="250" cy="382.5" r="22" fill="#fff" stroke="#1d2433" stroke-width="4"/><circle cx="254" cy="385.5" r="10" fill="#1d2433"/>
+<circle cx="310" cy="382.5" r="22" fill="#fff" stroke="#1d2433" stroke-width="4"/><circle cx="314" cy="385.5" r="10" fill="#1d2433"/>
+<path d="M 254 428.5 Q 280 454.5 306 428.5" stroke="#1d2433" stroke-width="7" fill="none" stroke-linecap="round"/>
+<text x="280" y="572" font-size="22" font-weight="700" fill="#1d2433" text-anchor="middle">Nico</text>
+<ellipse cx="1080" cy="550" rx="70" ry="12" fill="#000" opacity="0.12"/>
+<rect x="1025" y="390" rx="30" width="110" height="150" fill="#ffc83d"/>
+<circle cx="1080" cy="345" r="55" fill="#f2c7a5"/>
+<path d="M 1022 335 Q 1040 272 1080 285 Q 1125 268 1138 335 Q 1100 305 1022 335 Z" fill="#5a3b2a"/>
+<circle cx="1062" cy="345" r="6" fill="#1d2433"/><circle cx="1098" cy="345" r="6" fill="#1d2433"/>
+<path d="M 1064 368 Q 1080 380 1096 368" stroke="#1d2433" stroke-width="4" fill="none" stroke-linecap="round"/>
+<rect x="985" y="564" rx="12" width="190" height="34" fill="#ffffff" stroke="#d5dbe6"/>
+<text x="1080" y="588" font-size="18" font-weight="700" fill="#1d2433" text-anchor="middle">Gaussinho</text>
+<circle cx="598" cy="330" r="32" fill="#ff8a3d"/><circle cx="588" cy="320" r="9" fill="#fff" opacity="0.6"/>
+<text x="598" y="392" font-size="20" font-weight="700" fill="#4a5568" text-anchor="middle">1</text>
+<circle cx="674" cy="330" r="32" fill="#ffc83d"/><circle cx="664" cy="320" r="9" fill="#fff" opacity="0.6"/>
+<text x="674" y="392" font-size="20" font-weight="700" fill="#4a5568" text-anchor="middle">2</text>
+<circle cx="750" cy="330" r="32" fill="#4cc38a"/><circle cx="740" cy="320" r="9" fill="#fff" opacity="0.6"/>
+<text x="750" y="392" font-size="20" font-weight="700" fill="#4a5568" text-anchor="middle">3</text>
+<circle cx="826" cy="330" r="32" fill="#e85d75"/><circle cx="816" cy="320" r="9" fill="#fff" opacity="0.6"/>
+<text x="826" y="392" font-size="20" font-weight="700" fill="#4a5568" text-anchor="middle">4</text>
+<circle cx="902" cy="330" r="32" fill="#7b6cf6"/><circle cx="892" cy="320" r="9" fill="#fff" opacity="0.6"/>
+<text x="902" y="392" font-size="20" font-weight="700" fill="#4a5568" text-anchor="middle">5</text>
+<circle cx="598" cy="450" r="32" fill="#ff8a3d"/><circle cx="588" cy="440" r="9" fill="#fff" opacity="0.6"/>
+<text x="598" y="512" font-size="20" font-weight="700" fill="#4a5568" text-anchor="middle">6</text>
+<circle cx="674" cy="450" r="32" fill="#ffc83d"/><circle cx="664" cy="440" r="9" fill="#fff" opacity="0.6"/>
+<text x="674" y="512" font-size="20" font-weight="700" fill="#4a5568" text-anchor="middle">7</text>
+<circle cx="750" cy="450" r="32" fill="#4cc38a"/><circle cx="740" cy="440" r="9" fill="#fff" opacity="0.6"/>
+<text x="750" y="512" font-size="20" font-weight="700" fill="#4a5568" text-anchor="middle">8</text>
+<circle cx="826" cy="450" r="32" fill="#e85d75"/><circle cx="816" cy="440" r="9" fill="#fff" opacity="0.6"/>
+<text x="826" y="512" font-size="20" font-weight="700" fill="#4a5568" text-anchor="middle">9</text>
+<circle cx="902" cy="450" r="32" fill="#7b6cf6"/><circle cx="892" cy="440" r="9" fill="#fff" opacity="0.6"/>
+<text x="902" y="512" font-size="20" font-weight="700" fill="#4a5568" text-anchor="middle">10</text>
+<text x="1240" y="714" font-size="14" font-weight="400" fill="#8892a6" text-anchor="end">storyboard de exemplo (mock)</text>
+</svg>

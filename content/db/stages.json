@@ -1,0 +1,332 @@
+[
+  {
+    "id": "12ee6587-265a-4ff9-a68d-88a8bf698cd9",
+    "theme_id": "5faa02b2-981b-4669-b283-da834ae1af23",
+    "kind": "script",
+    "status": "approved",
+    "current_generation_id": "6199f77a-3ef5-4201-aa6a-02ea5be81d77",
+    "approved_generation_id": "6199f77a-3ef5-4201-aa6a-02ea5be81d77",
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.856Z"
+  },
+  {
+    "id": "11191ca4-2063-4679-9b00-0916bdb7ff0e",
+    "theme_id": "5faa02b2-981b-4669-b283-da834ae1af23",
+    "kind": "storyboard",
+    "status": "approved",
+    "current_generation_id": "a17cec1a-4b8e-49e7-bb07-49b486ab0e82",
+    "approved_generation_id": "a17cec1a-4b8e-49e7-bb07-49b486ab0e82",
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.894Z"
+  },
+  {
+    "id": "a5913b9e-1f42-4458-ae81-faa2be3a148d",
+    "theme_id": "5faa02b2-981b-4669-b283-da834ae1af23",
+    "kind": "video",
+    "status": "approved",
+    "current_generation_id": "f09c2ad7-99f1-496a-a12a-061f02705b95",
+    "approved_generation_id": "f09c2ad7-99f1-496a-a12a-061f02705b95",
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.969Z"
+  },
+  {
+    "id": "bb9b7ea8-471b-4a0f-8904-65444c03ddf7",
+    "theme_id": "5ff4f1b5-0be6-4345-8f95-7ef1bf878d66",
+    "kind": "script",
+    "status": "awaiting_approval",
+    "current_generation_id": "d22ef862-3575-4885-8f4a-7ef43295d84d",
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:25.035Z"
+  },
+  {
+    "id": "712016c5-f055-42f6-8d52-981b8cdb6e20",
+    "theme_id": "5ff4f1b5-0be6-4345-8f95-7ef1bf878d66",
+    "kind": "storyboard",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.805Z"
+  },
+  {
+    "id": "fd075e87-2409-4591-8812-309b08568e0c",
+    "theme_id": "5ff4f1b5-0be6-4345-8f95-7ef1bf878d66",
+    "kind": "video",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.805Z"
+  },
+  {
+    "id": "6d737336-00ea-4437-96e0-7ba6b23d64c0",
+    "theme_id": "7f9001b3-0ef6-45d0-86ec-f5657ef155d2",
+    "kind": "script",
+    "status": "ready",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.805Z"
+  },
+  {
+    "id": "ee0b2075-f9f7-4146-bcaf-282197ae3285",
+    "theme_id": "7f9001b3-0ef6-45d0-86ec-f5657ef155d2",
+    "kind": "storyboard",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.805Z"
+  },
+  {
+    "id": "150df1f8-1091-4b52-8817-5ff90dbabda3",
+    "theme_id": "7f9001b3-0ef6-45d0-86ec-f5657ef155d2",
+    "kind": "video",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.805Z"
+  },
+  {
+    "id": "18cde780-8b9a-4783-8223-ef07ffff6636",
+    "theme_id": "be4fd5b5-89fe-4c89-ac21-3c316d9e4da7",
+    "kind": "script",
+    "status": "ready",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "f7375d6a-c2aa-4099-864d-7b4972f14c6b",
+    "theme_id": "be4fd5b5-89fe-4c89-ac21-3c316d9e4da7",
+    "kind": "storyboard",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "68a0b7d3-e814-480c-8e33-1ec6d742f929",
+    "theme_id": "be4fd5b5-89fe-4c89-ac21-3c316d9e4da7",
+    "kind": "video",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "b857d914-a1b8-4a4e-982b-5fa335f071b6",
+    "theme_id": "843ccfd7-730a-424b-b37c-d699e189cac4",
+    "kind": "script",
+    "status": "ready",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "e53f258d-eb92-4b9f-97ef-d356e12e0b92",
+    "theme_id": "843ccfd7-730a-424b-b37c-d699e189cac4",
+    "kind": "storyboard",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "05481450-e895-49b6-adff-945537dd11f9",
+    "theme_id": "843ccfd7-730a-424b-b37c-d699e189cac4",
+    "kind": "video",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "70568494-8234-4ecf-927e-361fa6429f8f",
+    "theme_id": "15d0503e-a716-4afe-a7e1-6878644a1ce9",
+    "kind": "script",
+    "status": "ready",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "5c41b554-e2d3-41a1-a5b2-514738df4345",
+    "theme_id": "15d0503e-a716-4afe-a7e1-6878644a1ce9",
+    "kind": "storyboard",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "d73d64b9-269c-4984-9293-fdee479654cf",
+    "theme_id": "15d0503e-a716-4afe-a7e1-6878644a1ce9",
+    "kind": "video",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "1d5e1377-8674-481a-9ae4-f61692a6c989",
+    "theme_id": "186c5efb-d4b3-4800-b858-88d35dd59cab",
+    "kind": "script",
+    "status": "approved",
+    "current_generation_id": "993491c1-4b44-414a-952e-e62d72c45e8a",
+    "approved_generation_id": "993491c1-4b44-414a-952e-e62d72c45e8a",
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.993Z"
+  },
+  {
+    "id": "51081358-4bde-4c48-8f07-97e56f0ca714",
+    "theme_id": "186c5efb-d4b3-4800-b858-88d35dd59cab",
+    "kind": "storyboard",
+    "status": "awaiting_approval",
+    "current_generation_id": "cb30c44d-66d6-4ac1-841f-284466b2e243",
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:25.019Z"
+  },
+  {
+    "id": "92459afd-b1ca-4089-ba81-a0a3f04873a6",
+    "theme_id": "186c5efb-d4b3-4800-b858-88d35dd59cab",
+    "kind": "video",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "06b29a68-03dd-4a94-9bdb-63450418e467",
+    "theme_id": "93f6fbcb-752e-4d91-8368-6fd5aeeef4f8",
+    "kind": "script",
+    "status": "ready",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "7dbff47d-7b17-448a-8084-e64d74ea45c0",
+    "theme_id": "93f6fbcb-752e-4d91-8368-6fd5aeeef4f8",
+    "kind": "storyboard",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "119bc3df-bdae-404a-8b7e-0adf16100164",
+    "theme_id": "93f6fbcb-752e-4d91-8368-6fd5aeeef4f8",
+    "kind": "video",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "226fe599-caa8-432a-92b9-454e25855eeb",
+    "theme_id": "9db400f6-9ba6-466e-a71d-2b98a4a87bbc",
+    "kind": "script",
+    "status": "ready",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.824Z"
+  },
+  {
+    "id": "c6d6983e-ef28-46c7-8ed5-5f9c7f78e7bf",
+    "theme_id": "9db400f6-9ba6-466e-a71d-2b98a4a87bbc",
+    "kind": "storyboard",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.824Z"
+  },
+  {
+    "id": "2bde66b4-b464-4bb3-911e-db548408e686",
+    "theme_id": "9db400f6-9ba6-466e-a71d-2b98a4a87bbc",
+    "kind": "video",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.824Z"
+  },
+  {
+    "id": "26566cd0-6952-428a-be09-6216bfb18985",
+    "theme_id": "094d46b7-c67e-46e6-bacf-55fc8560b4ce",
+    "kind": "script",
+    "status": "ready",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.824Z"
+  },
+  {
+    "id": "a16a7c91-5df6-48d0-8082-afcf2f4b8bc6",
+    "theme_id": "094d46b7-c67e-46e6-bacf-55fc8560b4ce",
+    "kind": "storyboard",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.824Z"
+  },
+  {
+    "id": "c00ca118-eb31-4704-ac06-f28025b3200f",
+    "theme_id": "094d46b7-c67e-46e6-bacf-55fc8560b4ce",
+    "kind": "video",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.824Z"
+  },
+  {
+    "id": "b3d82c0d-c310-4074-9b31-cf5a7fa36d3c",
+    "theme_id": "910dd9d8-e6e0-4301-b4c4-76a4ecd42c32",
+    "kind": "script",
+    "status": "awaiting_approval",
+    "current_generation_id": "8c8f0fa1-82b3-480b-ad5c-3887338682e4",
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:25.052Z"
+  },
+  {
+    "id": "351b45a8-28e9-4085-afe1-08a638e3a315",
+    "theme_id": "910dd9d8-e6e0-4301-b4c4-76a4ecd42c32",
+    "kind": "storyboard",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.824Z"
+  },
+  {
+    "id": "e2a932b7-5e80-4de7-9605-4388af317a0f",
+    "theme_id": "910dd9d8-e6e0-4301-b4c4-76a4ecd42c32",
+    "kind": "video",
+    "status": "locked",
+    "current_generation_id": null,
+    "approved_generation_id": null,
+    "outdated": false,
+    "updated_at": "2026-11-06T18:11:24.824Z"
+  }
+]

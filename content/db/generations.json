@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "34bded56-73d6-4706-aae1-dda59e58538b",
+    "kind": "topics",
+    "target_type": "course",
+    "target_id": "dc17a884-cdef-4315-aa0e-751bdbacbf9e",
+    "theme_id": null,
+    "version": 1,
+    "status": "succeeded",
+    "note": null,
+    "skill_version": "1",
+    "skill_hash": "6f172c2e00",
+    "inputs": {},
+    "output": {
+      "topics": [
+        {
+          "title": "Números e contagem",
+          "description": "Para que servem os números, como contar objetos e como comparar quantidades até 100.",
+          "bncc_unit": "Números"
+        },
+        {
+          "title": "Adição e subtração",
+          "description": "Juntar, acrescentar, separar e retirar em situações do dia a dia.",
+          "bncc_unit": "Números"
+        },
+        {
+          "title": "Padrões e sequências",
+          "description": "Organizar objetos por atributos e descobrir o que vem depois numa sequência.",
+          "bncc_unit": "Álgebra"
+        },
+        {
+          "title": "Formas e espaço",
+          "description": "Localização no espaço e reconhecimento de figuras planas e espaciais.",
+          "bncc_unit": "Geometria"
+        },
+        {
+          "title": "Medidas, tempo e dinheiro",
+          "description": "Comparar tamanhos e pesos, entender o calendário e conhecer o dinheiro brasileiro.",
+          "bncc_unit": "Grandezas e medidas"
+        },
+        {
+          "title": "Dados e acaso",
+          "description": "Noção de acaso, leitura de tabelas e gráficos simples e pesquisas com a turma.",
+          "bncc_unit": "Probabilidade e estatística"
+        }
+      ],
+      "notes_applied": null
+    },
+    "error": null,
+    "cost_usd": 0,
+    "duration_ms": 3,
+    "created_at": "2026-11-06T18:11:24.790Z",
+    "finished_at": "2026-11-06T18:11:24.793Z"
+  },
+  {
+    "id": "7fffc4e7-2926-42ce-9b46-f04d4694b48c",
+    "kind": "themes",
+    "target_type": "topic",
+    "target_id": "ee8dcb6f-f5d7-41ad-82bb-3565d4851fa4",
+    "theme_id": null,
+    "version": 1,
+    "status": "succeeded",
+    "note": null,
+    "skill_version": "1",
+    "skill_hash": "061818c023",
+    "inputs": {},
+    "output": {
+      "themes": [
+        {
+          "title": "Juntar e acrescentar: a adição",
+          "summary": "Quando a gente junta dois grupos ou ganha mais, a quantidade aumenta.",
+          "learning_goal": "Resolver problemas de adição com os sentidos de juntar e acrescentar.",
+          "bncc_codes": [
+            "EF01MA06",
+            "EF01MA08"
+          ],
+          "people": []
+        },
+        {
+          "title": "Separar e retirar: a subtração",
+          "summary": "Quando a gente dá, come ou separa, a quantidade diminui.",
+          "learning_goal": "Resolver problemas de subtração com os sentidos de separar e retirar.",
+          "bncc_codes": [
+            "EF01MA08"
+          ],
+          "people": []
+        },
+        {
+          "title": "Os amigos do 10",
+          "summary": "Tem muitos jeitos de formar 10: 9 e 1, 8 e 2, 7 e 3, 6 e 4, 5 e 5.",
+          "learning_goal": "Compor e decompor números, com foco nos pares que formam 10.",
+          "bncc_codes": [
+            "EF01MA07"
+          ],
+          "people": []
+        }
+      ],
+      "notes_applied": null
+    },
+    "error": null,
+    "cost_usd": 0,
+    "duration_ms": 2,
+    "created_at": "2026-11-06T18:11:24.802Z",
+    "finished_at": "2026-11-06T18:11:24.805Z"
+  },
+  {
+    "id": "0e8687d2-1c6f-4536-aad6-4897c59655ac",
+    "kind": "themes",
+    "target_type": "topic",
+    "target_id": "63a306b8-af5c-4fc3-98e5-dd250414cf4e",
+    "theme_id": null,
+    "version": 1,
+    "status": "succeeded",
+    "note": null,
+    "skill_version": "1",
+    "skill_hash": "061818c023",
+    "inputs": {},
+    "output": {
+      "themes": [
+        {
+          "title": "Para que servem os números?",
+          "summary": "Os números aparecem em todo lugar: na idade, na camisa do jogador, no relógio e no telefone.",
+          "learning_goal": "Reconhecer números no dia a dia e perceber que eles indicam quantidade, ordem ou código.",
+          "bncc_codes": [
+            "EF01MA01"
+          ],
+          "people": []
+        },
+        {
+          "title": "Contando um a um",
+          "summary": "Para contar certo, a gente aponta cada coisa uma vez só, sem pular e sem repetir.",
+          "learning_goal": "Contar coleções de forma exata usando estratégias como apontar, separar e agrupar.",
+          "bncc_codes": [
+            "EF01MA02"
+          ],
+          "people": []
+        },
+        {
+          "title": "Tem mais, tem menos ou tem igual?",
+          "summary": "Formando pares, dá para descobrir qual grupo tem mais, qual tem menos ou se são iguais.",
+          "learning_goal": "Comparar quantidades por estimativa e por correspondência um a um.",
+          "bncc_codes": [
+            "EF01MA03"
+          ],
+          "people": []
+        },
+        {
+          "title": "Contando até 100 de 10 em 10",
+          "summary": "Fazer grupinhos de 10 deixa a contagem rápida, como fazia o pequeno Gauss.",
+          "learning_goal": "Contar coleções de até 100 elementos agrupando de 10 em 10 e registrar o resultado.",
+          "bncc_codes": [
+            "EF01MA04"
+          ],
+          "people": [
+            "Carl Friedrich Gauss"
+          ]
+        },
+        {
+          "title": "Quem vem antes e quem vem depois?",
+          "summary": "Na reta numérica, cada número tem seu lugar: o menor vem antes e o maior vem depois.",
+          "learning_goal": "Comparar e ordenar números de até duas ordens, com e sem a reta numérica.",
+          "bncc_codes": [
+            "EF01MA05"
+          ],
+          "people": []
+        }
+      ],
+      "notes_applied": null
+    },
+    "error": null,
+    "cost_usd": 0,
+    "duration_ms": 2,
+    "created_at": "2026-11-06T18:11:24.810Z",
+    "finished_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "48f4f142-a9c8-44cf-99bb-1ebb009b5f96",
+    "kind": "themes",
+    "target_type": "topic",
+    "target_id": "3d0c4a39-acb3-479c-9bf5-376b4ffc6d26",
+    "theme_id": null,
+    "version": 1,
+    "status": "succeeded",
+    "note": null,
+    "skill_version": "1",
+    "skill_hash": "061818c023",
+    "inputs": {},
+    "output": {
+      "themes": [
+        {
+          "title": "Direita, esquerda, frente e atrás",
+          "summary": "Para explicar onde as coisas estão, a gente usa palavras como direita, esquerda, frente e atrás.",
+          "learning_goal": "Descrever a localização de pessoas e objetos usando pontos de referência.",
+          "bncc_codes": [
+            "EF01MA11",
+            "EF01MA12"
+          ],
+          "people": []
+        },
+        {
+          "title": "Formas que rolam e formas que não rolam",
+          "summary": "A bola rola, a caixa não rola: cada forma tem um jeito diferente.",
+          "learning_goal": "Relacionar figuras espaciais (esfera, cilindro, cone, bloco) a objetos do dia a dia.",
+          "bncc_codes": [
+            "EF01MA13"
+          ],
+          "people": []
+        },
+        {
+          "title": "Círculo, quadrado, triângulo e retângulo",
+          "summary": "As formas estão nos desenhos, nas casas e até nos quadros da pintora Tarsila do Amaral.",
+          "learning_goal": "Identificar e nomear círculo, quadrado, retângulo e triângulo em diferentes posições.",
+          "bncc_codes": [
+            "EF01MA14"
+          ],
+          "people": [
+            "Tarsila do Amaral"
+          ]
+        }
+      ],
+      "notes_applied": null
+    },
+    "error": null,
+    "cost_usd": 0,
+    "duration_ms": 2,
+    "created_at": "2026-11-06T18:11:24.821Z",
+    "finished_at": "2026-11-06T18:11:24.824Z"
+  },
+  {
+    "id": "772c014c-968a-4199-b841-46b6c7dbe8ec",
+    "kind": "script",
+    "target_type": "stage",
+    "target_id": "12ee6587-265a-4ff9-a68d-88a8bf698cd9",
+    "theme_id": "5faa02b2-981b-4669-b283-da834ae1af23",
+    "version": 1,
+    "status": "succeeded",
+    "note": null,
+    "skill_version": "1",
+    "skill_hash": "0c7b3f1217",
+    "inputs": {},
+    "output": {
+      "title": "Juntar e acrescentar: a adição",
+      "logline": "O Nico ajuda a Bia a juntar bananas na feira e descobre que somar é juntar tudo e contar.",
+      "characters": [
+        {
+          "name": "Nico",
+          "role": "mascote",
+          "description": "Mascote da Matemática: um número com olhos grandes e sorriso que muda de forma e vira o número que a cena precisa."
+        },
+        {
+          "name": "Bia",
+          "role": "apoio",
+          "description": "Menina de 6 anos, curiosa, que vai à feira com a avó."
+        },
+        {
+          "name": "Vovó Lúcia",
+          "role": "apoio",
+          "description": "Avó da Bia, carinhosa, com avental de feirante."
+        }
+      ],
+      "scenes": [
+        {
+          "number": 1,
+          "title": "Oi, eu sou o Nico!",
+          "narration": "Oi! Eu sou o Nico, o número que muda de forma. Hoje eu vou descobrir um segredo: o que acontece quando a gente junta as coisas?",
+          "visual": "Nico entra pulando no meio da tela e vira o número 1, depois o 2, depois o 3, como mágica. Fundo azul-claro com estrelinhas.",
+          "on_screen_text": "Juntar e acrescentar",
+          "duration_sec": 12,
+          "is_song": false
+        },
+        {
+          "number": 2,
+          "title": "A feira da Bia",
+          "narration": "Esta é a Bia. Ela tem 2 bananas na cesta. A vovó deu mais 3 bananas. Quantas bananas a Bia tem agora?",
+          "visual": "Bia na feira segurando uma cesta com 2 bananas. A vovó entrega mais 3 bananas. Cada fruta brilha quando aparece.",
+          "on_screen_text": "2 bananas e mais 3 bananas",
+          "duration_sec": 14,
+          "is_song": false
+        },
+        {
+          "number": 3,
+          "title": "Juntar e contar",
+          "narration": "Vamos juntar tudo na cesta e contar devagar: um, dois, três, quatro, cinco! Agora a Bia tem 5 bananas.",
+          "visual": "As 5 bananas ficam em fila. Cada uma acende com um número em cima: 1, 2, 3, 4, 5. Nico vira o número 5 e comemora.",
+          "on_screen_text": "1  2  3  4  5",
+          "duration_sec": 14,
+          "is_song": false
+        },
+        {
+          "number": 4,
+          "title": "O sinal de mais",
+          "narration": "Para escrever isso, a gente usa o sinal de mais. Dois mais três é igual a cinco. O sinal de mais quer dizer: junta!",
+          "visual": "Nico se divide em três partes: o número 2, o sinal de mais e o número 3. As partes se abraçam e viram o número 5. A conta 2 + 3 = 5 aparece bem grande.",
+          "on_screen_text": "2 + 3 = 5",
+          "duration_sec": 14,
+          "is_song": false
+        },
+        {
+          "number": 5,
+          "title": "Acrescentar é ganhar mais",
+          "narration": "No parquinho tem 4 crianças no escorregador. Chega mais 1 amigo. Agora são 5 crianças! Quando chega mais, a gente soma.",
+          "visual": "Parquinho colorido com 4 crianças no escorregador. Uma criança chega correndo e acenando. A placa do parquinho muda de 4 para 5.",
+          "on_screen_text": "4 + 1 = 5",
+          "duration_sec": 14,
+          "is_song": false
+        },
+        {
+          "number": 6,
+          "title": "Contando nos dedos",
+          "narration": "Um truque: mostre 3 dedos numa mão e 2 dedos na outra. Junte as mãos e conte todos os dedos. Deu 5!",
+          "visual": "Duas mãos de criança: uma com 3 dedos levantados e outra com 2. Os dedos acendem um por um e aparece o número 5.",
+          "on_screen_text": "3 + 2 = 5",
+          "duration_sec": 12,
+          "is_song": false
+        },
+        {
+          "number": 7,
+          "title": "Hora da música!",
+          "narration": "Agora canta comigo! Junta, junta, conta tudo, é só somar! Um mais um, mais um, mais um, vem contar! Duas bananas na cesta da Bia, mais três da vovó, que alegria! Conta comigo: um, dois, três, quatro, cinco, cinco bananas, eu não minto! Junta, junta, conta tudo, é só somar!",
+          "visual": "Nico, Bia e a vovó dançam com bananas que pulam no ritmo. A letra aparece embaixo, palavra por palavra.",
+          "on_screen_text": "Junta, junta, conta tudo, é só somar!",
+          "duration_sec": 18,
+          "is_song": true
+        },
+        {
+          "number": 8,
+          "title": "Revisão",
+          "narration": "Lembrou? Somar é juntar ou ganhar mais. O sinal de mais quer dizer junta. E para achar o resultado, é só contar tudo!",
+          "visual": "Três cartões aparecem um de cada vez: uma cesta juntando frutas, uma criança chegando no parquinho e um sinal de mais gigante. Nico aponta cada cartão.",
+          "on_screen_text": "Juntar · Ganhar mais · Contar tudo",
+          "duration_sec": 13,
+          "is_song": false
+        }
+      ],
+      "song": {
+        "title": "Junta, junta!",
+        "style": "Marchinha alegre, 120 bpm, palmas e coro infantil.",
+        "hook": "Junta, junta, conta tudo, é só somar!",
+        "parts": [
+          {
+            "label": "Refrão",
+            "lines": [
+              "Junta, junta, conta tudo,",
+              "é só somar!",
+              "Um mais um, mais um, mais um,",
+              "vem contar!"
+            ]
+          },
+          {
+            "label": "Verso",
+            "lines": [
+              "Duas bananas na cesta da Bia,",
+              "mais três da vovó, que alegria!",
+              "Conta comigo: um, dois, três, quatro, cinco,",
+              "cinco bananas, eu não minto!"
+            ]
+          },
+          {
+            "label": "Refrão",
+            "lines": [
+              "Junta, junta, conta tudo,",
+              "é só somar!"
+            ]
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "question": "A Bia tinha 2 bananas e ganhou mais 3. Quantas ela tem agora?",
+          "options": [
+            "4",
+            "5",
+            "6"
+          ],
+          "answer_index": 1,
+          "explanation": "Dois mais três é igual a cinco. Junta e conta: 1, 2, 3, 4, 5!"
+        },
+        {
+          "question": "Qual sinal quer dizer \"junta\"?",
+          "options": [
+            "+",
+            "−",
+            "="
+          ],
+          "answer_index": 0,
+          "explanation": "O sinal de mais (+) quer dizer juntar."
+        },
+        {
+          "question": "Tinha 4 crianças no parquinho e chegou mais 1. Quantas crianças tem agora?",
+          "options": [
+            "3",
+            "41",
+            "5"
+          ],
+          "answer_index": 2,
+          "explanation": "Chegou mais um: 4 mais 1 é igual a 5."
+        }
+      ],
+      "review": [
+        "Somar é juntar dois grupos ou ganhar mais.",
+        "O sinal de mais (+) quer dizer: junta!",
+        "Para achar o resultado, conte tudo junto: 2 + 3 = 5."
+      ],
+      "notes_applied": null
+    },
+    "error": null,
+    "cost_usd": 0,
+    "duration_ms": 3,
+    "created_at": "2026-11-06T18:11:24.833Z",
+    "finished_at": "2026-11-06T18:11:24.838Z"
+  },
+  {
+    "id": "6199f77a-3ef5-4201-aa6a-02ea5be81d77",
+    "kind": "script",
+    "target_type": "stage",
+    "target_id": "12ee6587-265a-4ff9-a68d-88a8bf698cd9",
+    "theme_id": "5faa02b2-981b-4669-b283-da834ae1af23",
+    "version": 2,
+    "status": "succeeded",
+    "note": "Troque as bananas por mangas e deixe a música mais curta.",
+    "skill_version": "1",
+    "skill_hash": "0c7b3f1217",
+    "inputs": {},
+    "output": {
+      "title": "Juntar e acrescentar: a adição",
+      "logline": "O Nico ajuda a Bia a juntar mangas na feira e descobre que somar é juntar tudo e contar.",
+      "characters": [
+        {
+          "name": "Nico",
+          "role": "mascote",
+          "description": "Mascote da Matemática: um número com olhos grandes e sorriso que muda de forma e vira o número que a cena precisa."
+        },
+        {
+          "name": "Bia",
+          "role": "apoio",
+          "description": "Menina de 6 anos, curiosa, que vai à feira com a avó."
+        },
+        {
+          "name": "Vovó Lúcia",
+          "role": "apoio",
+          "description": "Avó da Bia, carinhosa, com avental de feirante."
+        }
+      ],
+      "scenes": [
+        {
+          "number": 1,
+          "title": "Oi, eu sou o Nico!",
+          "narration": "Oi! Eu sou o Nico, o número que muda de forma. Hoje eu vou descobrir um segredo: o que acontece quando a gente junta as coisas?",
+          "visual": "Nico entra pulando no meio da tela e vira o número 1, depois o 2, depois o 3, como mágica. Fundo azul-claro com estrelinhas.",
+          "on_screen_text": "Juntar e acrescentar",
+          "duration_sec": 12,
+          "is_song": false
+        },
+        {
+          "number": 2,
+          "title": "A feira da Bia",
+          "narration": "Esta é a Bia. Ela tem 2 mangas na cesta. A vovó deu mais 3 mangas. Quantas mangas a Bia tem agora?",
+          "visual": "Bia na feira segurando uma cesta com 2 mangas. A vovó entrega mais 3 mangas. Cada fruta brilha quando aparece.",
+          "on_screen_text": "2 mangas e mais 3 mangas",
+          "duration_sec": 14,
+          "is_song": false
+        },
+        {
+          "number": 3,
+          "title": "Juntar e contar",
+          "narration": "Vamos juntar tudo na cesta e contar devagar: um, dois, três, quatro, cinco! Agora a Bia tem 5 mangas.",
+          "visual": "As 5 mangas ficam em fila. Cada uma acende com um número em cima: 1, 2, 3, 4, 5. Nico vira o número 5 e comemora.",
+          "on_screen_text": "1  2  3  4  5",
+          "duration_sec": 14,
+          "is_song": false
+        },
+        {
+          "number": 4,
+          "title": "O sinal de mais",
+          "narration": "Para escrever isso, a gente usa o sinal de mais. Dois mais três é igual a cinco. O sinal de mais quer dizer: junta!",
+          "visual": "Nico se divide em três partes: o número 2, o sinal de mais e o número 3. As partes se abraçam e viram o número 5. A conta 2 + 3 = 5 aparece bem grande.",
+          "on_screen_text": "2 + 3 = 5",
+          "duration_sec": 14,
+          "is_song": false
+        },
+        {
+          "number": 5,
+          "title": "Acrescentar é ganhar mais",
+          "narration": "No parquinho tem 4 crianças no escorregador. Chega mais 1 amigo. Agora são 5 crianças! Quando chega mais, a gente soma.",
+          "visual": "Parquinho colorido com 4 crianças no escorregador. Uma criança chega correndo e acenando. A placa do parquinho muda de 4 para 5.",
+          "on_screen_text": "4 + 1 = 5",
+          "duration_sec": 14,
+          "is_song": false
+        },
+        {
+          "number": 6,
+          "title": "Contando nos dedos",
+          "narration": "Um truque: mostre 3 dedos numa mão e 2 dedos na outra. Junte as mãos e conte todos os dedos. Deu 5!",
+          "visual": "Duas mãos de criança: uma com 3 dedos levantados e outra com 2. Os dedos acendem um por um e aparece o número 5.",
+          "on_screen_text": "3 + 2 = 5",
+          "duration_sec": 12,
+          "is_song": false
+        },
+        {
+          "number": 7,
+          "title": "Hora da música!",
+          "narration": "Agora canta comigo! Mais um, mais um, junta tudo num montão! Conta nos dedinhos, faz a soma com a mão! Duas mangas e mais três, conta tudo de uma vez: um, dois, três, quatro, cinco, somar é fácil, vem comigo!",
+          "visual": "Nico, Bia e a vovó dançam com mangas que pulam no ritmo. A letra aparece embaixo, palavra por palavra.",
+          "on_screen_text": "Mais um, mais um, junta tudo num montão!",
+          "duration_sec": 18,
+          "is_song": true
+        },
+        {
+          "number": 8,
+          "title": "Revisão",
+          "narration": "Lembrou? Somar é juntar ou ganhar mais. O sinal de mais quer dizer junta. E para achar o resultado, é só contar tudo!",
+          "visual": "Três cartões aparecem um de cada vez: uma cesta juntando frutas, uma criança chegando no parquinho e um sinal de mais gigante. Nico aponta cada cartão.",
+          "on_screen_text": "Juntar · Ganhar mais · Contar tudo",
+          "duration_sec": 13,
+          "is_song": false
+        }
+      ],
+      "song": {
+        "title": "Mais um, mais um",
+        "style": "Pop infantil, 110 bpm, batida de palmas e assobio.",
+        "hook": "Mais um, mais um, junta tudo num montão!",
+        "parts": [
+          {
+            "label": "Refrão",
+            "lines": [
+              "Mais um, mais um,",
+              "junta tudo num montão!",
+              "Conta nos dedinhos,",
+              "faz a soma com a mão!"
+            ]
+          },
+          {
+            "label": "Verso",
+            "lines": [
+              "Duas mangas e mais três,",
+              "conta tudo de uma vez:",
+              "um, dois, três, quatro, cinco,",
+              "somar é fácil, vem comigo!"
+            ]
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "question": "A Bia tinha 2 mangas e ganhou mais 3. Quantas ela tem agora?",
+          "options": [
+            "4",
+            "5",
+            "6"
+          ],
+          "answer_index": 1,
+          "explanation": "Dois mais três é igual a cinco. Junta e conta: 1, 2, 3, 4, 5!"
+        },
+        {
+          "question": "Qual sinal quer dizer \"junta\"?",
+          "options": [
+            "+",
+            "−",
+            "="
+          ],
+          "answer_index": 0,
+          "explanation": "O sinal de mais (+) quer dizer juntar."
+        },
+        {
+          "question": "Tinha 4 crianças no parquinho e chegou mais 1. Quantas crianças tem agora?",
+          "options": [
+            "3",
+            "41",
+            "5"
+          ],
+          "answer_index": 2,
+          "explanation": "Chegou mais um: 4 mais 1 é igual a 5."
+        }
+      ],
+      "review": [
+        "Somar é juntar dois grupos ou ganhar mais.",
+        "O sinal de mais (+) quer dizer: junta!",
+        "Para achar o resultado, conte tudo junto: 2 + 3 = 5."
+      ],
+      "notes_applied": "Troque as bananas por mangas e deixe a música mais curta."
+    },
+    "error": null,
+    "cost_usd": 0,
+    "duration_ms": 2,
+    "created_at": "2026-11-06T18:11:24.846Z",
+    "finished_at": "2026-11-06T18:11:24.851Z"
+  },
+  {
+    "id": "a17cec1a-4b8e-49e7-bb07-49b486ab0e82",
+    "kind": "storyboard",
+    "target_type": "stage",
+    "target_id": "11191ca4-2063-4679-9b00-0916bdb7ff0e",
+    "theme_id": "5faa02b2-981b-4669-b283-da834ae1af23",
+    "version": 1,
+    "status": "succeeded",
+    "note": null,
+    "skill_version": "1",
+    "skill_hash": "1379bb93dd",
+    "inputs": {
+      "script_generation_id": "6199f77a-3ef5-4201-aa6a-02ea5be81d77"
+    },
+    "output": {
+      "style": "Desenho animado 2D, traço arredondado e limpo, cores vivas e fundo claro. Paleta principal: azul (#2f6fde), amarelo, laranja e verde. Números e contas aparecem grandes, como se fossem escritos num quadro. Objetos contáveis (frutas, bolinhas, brinquedos) aparecem em fileiras organizadas, para a criança conseguir contar na tela.",
+      "frames": [
+        {
+          "scene_number": 1,
+          "caption": "Nico entra pulando no meio da tela e vira o número 1, depois o 2, depois o 3, como mágica. Fundo azul-claro com estrelinhas.",
+          "image_path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/storyboard-v1/cena-01.svg"
+        },
+        {
+          "scene_number": 2,
+          "caption": "Bia na feira segurando uma cesta com 2 mangas. A vovó entrega mais 3 mangas. Cada fruta brilha quando aparece.",
+          "image_path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/storyboard-v1/cena-02.svg"
+        },
+        {
+          "scene_number": 3,
+          "caption": "As 5 mangas ficam em fila. Cada uma acende com um número em cima: 1, 2, 3, 4, 5. Nico vira o número 5 e comemora.",
+          "image_path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/storyboard-v1/cena-03.svg"
+        },
+        {
+          "scene_number": 4,
+          "caption": "Nico se divide em três partes: o número 2, o sinal de mais e o número 3. As partes se abraçam e viram o número 5. A conta 2 + 3 = 5 aparece bem grande.",
+          "image_path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/storyboard-v1/cena-04.svg"
+        },
+        {
+          "scene_number": 5,
+          "caption": "Parquinho colorido com 4 crianças no escorregador. Uma criança chega correndo e acenando. A placa do parquinho muda de 4 para 5.",
+          "image_path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/storyboard-v1/cena-05.svg"
+        },
+        {
+          "scene_number": 6,
+          "caption": "Duas mãos de criança: uma com 3 dedos levantados e outra com 2. Os dedos acendem um por um e aparece o número 5.",
+          "image_path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/storyboard-v1/cena-06.svg"
+        },
+        {
+          "scene_number": 7,
+          "caption": "Nico, Bia e a vovó dançam com mangas que pulam no ritmo. A letra aparece embaixo, palavra por palavra.",
+          "image_path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/storyboard-v1/cena-07.svg"
+        },
+        {
+          "scene_number": 8,
+          "caption": "Três cartões aparecem um de cada vez: uma cesta juntando frutas, uma criança chegando no parquinho e um sinal de mais gigante. Nico aponta cada cartão.",
+          "image_path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/storyboard-v1/cena-08.svg"
+        }
+      ],
+      "notes_applied": null
+    },
+    "error": null,
+    "cost_usd": 0,
+    "duration_ms": 20,
+    "created_at": "2026-11-06T18:11:24.864Z",
+    "finished_at": "2026-11-06T18:11:24.886Z"
+  },
+  {
+    "id": "f09c2ad7-99f1-496a-a12a-061f02705b95",
+    "kind": "video",
+    "target_type": "stage",
+    "target_id": "a5913b9e-1f42-4458-ae81-faa2be3a148d",
+    "theme_id": "5faa02b2-981b-4669-b283-da834ae1af23",
+    "version": 1,
+    "status": "succeeded",
+    "note": null,
+    "skill_version": "1",
+    "skill_hash": "f79163c5a9",
+    "inputs": {
+      "script_generation_id": "6199f77a-3ef5-4201-aa6a-02ea5be81d77",
+      "storyboard_generation_id": "a17cec1a-4b8e-49e7-bb07-49b486ab0e82"
+    },
+    "output": {
+      "format": "animatic",
+      "path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/video-v1/video.json",
+      "duration_sec": 111,
+      "notes_applied": null
+    },
+    "error": null,
+    "cost_usd": 0,
+    "duration_ms": 55,
+    "created_at": "2026-11-06T18:11:24.903Z",
+    "finished_at": "2026-11-06T18:11:24.961Z"
+  },
+  {
+    "id": "993491c1-4b44-414a-952e-e62d72c45e8a",
+    "kind": "script",
+    "target_type": "stage",
+    "target_id": "1d5e1377-8674-481a-9ae4-f61692a6c989",
+    "theme_id": "186c5efb-d4b3-4800-b858-88d35dd59cab",
+    "version": 1,
+    "status": "succeeded",
+    "note": null,
+    "skill_version": "1",
+    "skill_hash": "0c7b3f1217",
+    "inputs": {},
+    "output": {
+      "title": "Contando até 100 de 10 em 10",
+      "logline": "O Gaussinho ensina o Nico a contar um montão de bolinhas de gude fazendo grupinhos de 10.",
+      "characters": [
+        {
+          "name": "Nico",
+          "role": "mascote",
+          "description": "Mascote da Matemática: um número com olhos grandes e sorriso que muda de forma e vira o número que a cena precisa."
+        },
+        {
+          "name": "Gaussinho",
+          "role": "pessoa citada",
+          "description": "Versão criança de Carl Friedrich Gauss, matemático alemão que, segundo a história, achou um jeito rápido de fazer uma conta enorme quando era menino. Cabelo bagunçado, roupa antiga, muito curioso."
+        }
+      ],
+      "scenes": [
+        {
+          "number": 1,
+          "title": "Um montão!",
+          "narration": "Oi, eu sou o Nico! Olha quantas bolinhas de gude! Será que dá para contar tudo isso sem se perder?",
+          "visual": "Nico ao lado de um monte enorme de bolinhas de gude coloridas espalhadas no chão. Ele coça a cabeça, confuso.",
+          "on_screen_text": null,
+          "duration_sec": 12,
+          "is_song": false
+        },
+        {
+          "number": 2,
+          "title": "Chega o Gaussinho",
+          "narration": "Este é o Gaussinho. Há muito tempo, ele era um menino que adorava contar e sempre achava jeitos espertos de fazer contas rápidas.",
+          "visual": "Gaussinho sai de uma máquina do tempo de papelão, com roupa antiga e cabelo bagunçado, acenando para o Nico.",
+          "on_screen_text": "Gaussinho",
+          "duration_sec": 13,
+          "is_song": false
+        },
+        {
+          "number": 3,
+          "title": "O segredo: grupos de 10",
+          "narration": "O Gaussinho ensina: em vez de contar uma por uma, vamos fazer grupinhos de 10. Cada saquinho guarda 10 bolinhas de gude.",
+          "visual": "As bolinhas de gude pulam para dentro de saquinhos transparentes, 10 em cada um. O número 10 aparece em cada saquinho.",
+          "on_screen_text": "10 em cada saquinho",
+          "duration_sec": 14,
+          "is_song": false
+        },
+        {
+          "number": 4,
+          "title": "De 10 em 10",
+          "narration": "Agora é só contar os saquinhos: dez, vinte, trinta, quarenta, cinquenta! São 50.",
+          "visual": "Cinco saquinhos em fila. Nico vira o número 10, 20, 30, 40 e 50 conforme pula em cima de cada saquinho.",
+          "on_screen_text": "10 · 20 · 30 · 40 · 50",
+          "duration_sec": 14,
+          "is_song": false
+        },
+        {
+          "number": 5,
+          "title": "Até chegar no 100",
+          "narration": "Com 10 saquinhos de 10, a gente chega no 100! Dez, vinte, trinta, quarenta, cinquenta, sessenta, setenta, oitenta, noventa, cem!",
+          "visual": "Dez saquinhos formam uma escada. Nico sobe degrau por degrau, mudando de número, até virar um 100 gigante com fogos de artifício.",
+          "on_screen_text": "100",
+          "duration_sec": 16,
+          "is_song": false
+        },
+        {
+          "number": 6,
+          "title": "E o que sobra?",
+          "narration": "Se sobrar bolinhas de gude fora do saquinho, a gente conta separado. Três saquinhos e mais 4 soltas: trinta e quatro!",
+          "visual": "Três saquinhos cheios e 4 bolinhas de gude soltas ao lado. Aparece 30 + 4 = 34, com cores diferentes para as dezenas e as unidades.",
+          "on_screen_text": "30 + 4 = 34",
+          "duration_sec": 14,
+          "is_song": false
+        },
+        {
+          "number": 7,
+          "title": "Hora da música!",
+          "narration": "Canta comigo! De dez em dez, de dez em dez, conta comigo, vai, vai, vai! Dez, vinte, trinta, quarenta, cinquenta, sessenta, setenta, a turma aguenta! Oitenta, noventa, chegou a vez: cem é dez grupinhos de dez! De dez em dez, de dez em dez, conta comigo, vai, vai, vai!",
+          "visual": "Nico e Gaussinho dançam em cima dos saquinhos. A cada \"dez\" um saquinho acende. A letra aparece embaixo.",
+          "on_screen_text": "De dez em dez, conta comigo, vai, vai, vai!",
+          "duration_sec": 18,
+          "is_song": true
+        },
+        {
+          "number": 8,
+          "title": "Revisão",
+          "narration": "Lembrou? Para contar muita coisa, faça grupos de 10. Depois conte de 10 em 10 e junte o que sobrou.",
+          "visual": "Três cartões: um monte bagunçado, saquinhos de 10 arrumados e o número 100. Gaussinho dá um joinha.",
+          "on_screen_text": "Grupos de 10 · De 10 em 10 · Junte o que sobrou",
+          "duration_sec": 12,
+          "is_song": false
+        }
+      ],
+      "song": {
+        "title": "De dez em dez",
+        "style": "Funk infantil leve, 100 bpm, batida simples e palmas.",
+        "hook": "De dez em dez, conta comigo, vai, vai, vai!",
+        "parts": [
+          {
+            "label": "Refrão",
+            "lines": [
+              "De dez em dez, de dez em dez,",
+              "conta comigo, vai, vai, vai!"
+            ]
+          },
+          {
+            "label": "Verso",
+            "lines": [
+              "Dez, vinte, trinta, quarenta, cinquenta,",
+              "sessenta, setenta, a turma aguenta!",
+              "Oitenta, noventa, chegou a vez:",
+              "cem é dez grupinhos de dez!"
+            ]
+          },
+          {
+            "label": "Refrão",
+            "lines": [
+              "De dez em dez, de dez em dez,",
+              "conta comigo, vai, vai, vai!"
+            ]
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "question": "Quantas coisas cabem em cada saquinho do Gaussinho?",
+          "options": [
+            "5",
+            "10",
+            "100"
+          ],
+          "answer_index": 1,
+          "explanation": "Cada saquinho guarda um grupinho de 10."
+        },
+        {
+          "question": "Dez, vinte, trinta... qual vem depois?",
+          "options": [
+            "Trinta e um",
+            "Cinquenta",
+            "Quarenta"
+          ],
+          "answer_index": 2,
+          "explanation": "De 10 em 10: dez, vinte, trinta, quarenta!"
+        },
+        {
+          "question": "Três saquinhos de 10 e mais 4 soltas. Quantas são?",
+          "options": [
+            "34",
+            "7",
+            "43"
+          ],
+          "answer_index": 0,
+          "explanation": "Três saquinhos são 30. Com mais 4, são 34."
+        }
+      ],
+      "review": [
+        "Para contar muita coisa, faça grupos de 10.",
+        "Conte os grupos de 10 em 10: 10, 20, 30...",
+        "10 grupos de 10 formam 100."
+      ],
+      "notes_applied": null
+    },
+    "error": null,
+    "cost_usd": 0,
+    "duration_ms": 3,
+    "created_at": "2026-11-06T18:11:24.979Z",
+    "finished_at": "2026-11-06T18:11:24.985Z"
+  },
+  {
+    "id": "cb30c44d-66d6-4ac1-841f-284466b2e243",
+    "kind": "storyboard",
+    "target_type": "stage",
+    "target_id": "51081358-4bde-4c48-8f07-97e56f0ca714",
+    "theme_id": "186c5efb-d4b3-4800-b858-88d35dd59cab",
+    "version": 1,
+    "status": "succeeded",
+    "note": null,
+    "skill_version": "1",
+    "skill_hash": "1379bb93dd",
+    "inputs": {
+      "script_generation_id": "993491c1-4b44-414a-952e-e62d72c45e8a"
+    },
+    "output": {
+      "style": "Desenho animado 2D, traço arredondado e limpo, cores vivas e fundo claro. Paleta principal: azul (#2f6fde), amarelo, laranja e verde. Números e contas aparecem grandes, como se fossem escritos num quadro. Objetos contáveis (frutas, bolinhas, brinquedos) aparecem em fileiras organizadas, para a criança conseguir contar na tela.",
+      "frames": [
+        {
+          "scene_number": 1,
+          "caption": "Nico ao lado de um monte enorme de bolinhas de gude coloridas espalhadas no chão. Ele coça a cabeça, confuso.",
+          "image_path": "media/themes/186c5efb-d4b3-4800-b858-88d35dd59cab/storyboard-v1/cena-01.svg"
+        },
+        {
+          "scene_number": 2,
+          "caption": "Gaussinho sai de uma máquina do tempo de papelão, com roupa antiga e cabelo bagunçado, acenando para o Nico.",
+          "image_path": "media/themes/186c5efb-d4b3-4800-b858-88d35dd59cab/storyboard-v1/cena-02.svg"
+        },
+        {
+          "scene_number": 3,
+          "caption": "As bolinhas de gude pulam para dentro de saquinhos transparentes, 10 em cada um. O número 10 aparece em cada saquinho.",
+          "image_path": "media/themes/186c5efb-d4b3-4800-b858-88d35dd59cab/storyboard-v1/cena-03.svg"
+        },
+        {
+          "scene_number": 4,
+          "caption": "Cinco saquinhos em fila. Nico vira o número 10, 20, 30, 40 e 50 conforme pula em cima de cada saquinho.",
+          "image_path": "media/themes/186c5efb-d4b3-4800-b858-88d35dd59cab/storyboard-v1/cena-04.svg"
+        },
+        {
+          "scene_number": 5,
+          "caption": "Dez saquinhos formam uma escada. Nico sobe degrau por degrau, mudando de número, até virar um 100 gigante com fogos de artifício.",
+          "image_path": "media/themes/186c5efb-d4b3-4800-b858-88d35dd59cab/storyboard-v1/cena-05.svg"
+        },
+        {
+          "scene_number": 6,
+          "caption": "Três saquinhos cheios e 4 bolinhas de gude soltas ao lado. Aparece 30 + 4 = 34, com cores diferentes para as dezenas e as unidades.",
+          "image_path": "media/themes/186c5efb-d4b3-4800-b858-88d35dd59cab/storyboard-v1/cena-06.svg"
+        },
+        {
+          "scene_number": 7,
+          "caption": "Nico e Gaussinho dançam em cima dos saquinhos. A cada \"dez\" um saquinho acende. A letra aparece embaixo.",
+          "image_path": "media/themes/186c5efb-d4b3-4800-b858-88d35dd59cab/storyboard-v1/cena-07.svg"
+        },
+        {
+          "scene_number": 8,
+          "caption": "Três cartões: um monte bagunçado, saquinhos de 10 arrumados e o número 100. Gaussinho dá um joinha.",
+          "image_path": "media/themes/186c5efb-d4b3-4800-b858-88d35dd59cab/storyboard-v1/cena-08.svg"
+        }
+      ],
+      "notes_applied": null
+    },
+    "error": null,
+    "cost_usd": 0,
+    "duration_ms": 15,
+    "created_at": "2026-11-06T18:11:25.002Z",
+    "finished_at": "2026-11-06T18:11:25.019Z"
+  },
+  {
+    "id": "d22ef862-3575-4885-8f4a-7ef43295d84d",
+    "kind": "script",
+    "target_type": "stage",
+    "target_id": "bb9b7ea8-471b-4a0f-8904-65444c03ddf7",
+    "theme_id": "5ff4f1b5-0be6-4345-8f95-7ef1bf878d66",
+    "version": 1,
+    "status": "succeeded",
+    "note": null,
+    "skill_version": "1",
+    "skill_hash": "0c7b3f1217",
+    "inputs": {},
+    "output": {
+      "title": "Separar e retirar: a subtração",
+      "logline": "Nico mostra, com desenhos e uma música, que quando a gente dá, come ou separa, a quantidade diminui.",
+      "characters": [
+        {
+          "name": "Nico",
+          "role": "mascote",
+          "description": "Um número estilizado que muda de forma para virar o número da cena."
+        }
+      ],
+      "scenes": [
+        {
+          "number": 1,
+          "title": "Oi, eu sou o Nico!",
+          "narration": "Oi! Eu sou o Nico. Hoje a gente vai descobrir uma coisa nova: separar e retirar: a subtração!",
+          "visual": "Nico entra pulando e se transforma em vários números. O título do episódio aparece com letras coloridas.",
+          "on_screen_text": "Separar e retirar: a subtração",
+          "duration_sec": 11,
+          "is_song": false
+        },
+        {
+          "number": 2,
+          "title": "Uma pergunta do dia a dia",
+          "narration": "Quando a gente dá, come ou separa, a quantidade diminui. Você já tinha percebido isso?",
+          "visual": "Uma cena do dia a dia de uma criança, em casa, na escola ou no parquinho, que mostra a ideia: Quando a gente dá, come ou separa, a quantidade diminui.",
+          "on_screen_text": null,
+          "duration_sec": 13,
+          "is_song": false
+        },
+        {
+          "number": 3,
+          "title": "Vamos ver com desenhos",
+          "narration": "Vamos ver isso com desenhos? Olha só o que acontece na tela, bem devagar, um passo de cada vez.",
+          "visual": "Explicação visual passo a passo: Resolver problemas de subtração com os sentidos de separar e retirar. Objetos grandes e coloridos, um de cada vez, com Nico apontando.",
+          "on_screen_text": null,
+          "duration_sec": 14,
+          "is_song": false
+        },
+        {
+          "number": 4,
+          "title": "Agora é sua vez",
+          "narration": "Agora é sua vez! Olhe a tela e pense na resposta antes do Nico. Pensou? Muito bem!",
+          "visual": "Um desafio simples aparece na tela. Nico espera com cara de curioso, batendo o pé.",
+          "on_screen_text": "Sua vez!",
+          "duration_sec": 13,
+          "is_song": false
+        },
+        {
+          "number": 5,
+          "title": "Hora da música!",
+          "narration": "Canta comigo! Olha, olha, aprendi, o Nico me ensinou! Conta, pensa, brinca e diz: matemática chegou! Hoje o tema é especial: separar e retirar: a subtração, vem cantar e aprender, fica fácil de entender!",
+          "visual": "Nico dança no centro da tela com objetos do tema pulando no ritmo. A letra aparece embaixo.",
+          "on_screen_text": "Olha, olha, aprendi, o Nico me ensinou!",
+          "duration_sec": 16,
+          "is_song": true
+        },
+        {
+          "number": 6,
+          "title": "Revisão",
+          "narration": "Lembrou? Quando a gente dá, come ou separa, a quantidade diminui.",
+          "visual": "Cartões de revisão aparecem um de cada vez, com Nico apontando cada um.",
+          "on_screen_text": "Revisão",
+          "duration_sec": 11,
+          "is_song": false
+        }
+      ],
+      "song": {
+        "title": "Aprendi com o Nico",
+        "style": "Marchinha alegre, 115 bpm, palmas.",
+        "hook": "Olha, olha, aprendi, o Nico me ensinou!",
+        "parts": [
+          {
+            "label": "Refrão",
+            "lines": [
+              "Olha, olha, aprendi,",
+              "o Nico me ensinou!",
+              "Conta, pensa, brinca e diz:",
+              "matemática chegou!"
+            ]
+          },
+          {
+            "label": "Verso",
+            "lines": [
+              "Hoje o tema é especial:",
+              "separar e retirar: a subtração,",
+              "vem cantar e aprender,",
+              "fica fácil de entender!"
+            ]
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "question": "Qual era o assunto do vídeo de hoje?",
+          "options": [
+            "Os animais da fazenda",
+            "Separar e retirar: a subtração",
+            "As cores do arco-íris"
+          ],
+          "answer_index": 1,
+          "explanation": "Hoje a gente aprendeu: separar e retirar: a subtração."
+        },
+        {
+          "question": "Como se chama o mascote de Matemática?",
+          "options": [
+            "Um dinossauro",
+            "Um astronauta",
+            "Nico"
+          ],
+          "answer_index": 2,
+          "explanation": "É o Nico, o mascote de Matemática!"
+        }
+      ],
+      "review": [
+        "Quando a gente dá, come ou separa, a quantidade diminui.",
+        "Na dúvida, desenhe e conte com os dedos!"
+      ],
+      "notes_applied": null
+    },
+    "error": null,
+    "cost_usd": 0,
+    "duration_ms": 4,
+    "created_at": "2026-11-06T18:11:25.029Z",
+    "finished_at": "2026-11-06T18:11:25.035Z"
+  },
+  {
+    "id": "8c8f0fa1-82b3-480b-ad5c-3887338682e4",
+    "kind": "script",
+    "target_type": "stage",
+    "target_id": "b3d82c0d-c310-4074-9b31-cf5a7fa36d3c",
+    "theme_id": "910dd9d8-e6e0-4301-b4c4-76a4ecd42c32",
+    "version": 1,
+    "status": "succeeded",
+    "note": null,
+    "skill_version": "1",
+    "skill_hash": "0c7b3f1217",
+    "inputs": {},
+    "output": {
+      "title": "Círculo, quadrado, triângulo e retângulo",
+      "logline": "Nico mostra, com desenhos e uma música, que as formas estão nos desenhos, nas casas e até nos quadros da pintora Tarsila do Amaral.",
+      "characters": [
+        {
+          "name": "Nico",
+          "role": "mascote",
+          "description": "Um número estilizado que muda de forma para virar o número da cena."
+        },
+        {
+          "name": "Tarsila do Amaral",
+          "role": "pessoa citada",
+          "description": "Versão em desenho animado de Tarsila do Amaral, simpática e simples, para crianças."
+        }
+      ],
+      "scenes": [
+        {
+          "number": 1,
+          "title": "Oi, eu sou o Nico!",
+          "narration": "Oi! Eu sou o Nico. Hoje a gente vai descobrir uma coisa nova: círculo, quadrado, triângulo e retângulo!",
+          "visual": "Nico entra pulando e se transforma em vários números. O título do episódio aparece com letras coloridas.",
+          "on_screen_text": "Círculo, quadrado, triângulo e retângulo",
+          "duration_sec": 11,
+          "is_song": false
+        },
+        {
+          "number": 2,
+          "title": "Uma pergunta do dia a dia",
+          "narration": "As formas estão nos desenhos, nas casas e até nos quadros da pintora Tarsila do Amaral. Você já tinha percebido isso?",
+          "visual": "Uma cena do dia a dia de uma criança, em casa, na escola ou no parquinho, que mostra a ideia: As formas estão nos desenhos, nas casas e até nos quadros da pintora Tarsila do Amaral.",
+          "on_screen_text": null,
+          "duration_sec": 13,
+          "is_song": false
+        },
+        {
+          "number": 3,
+          "title": "Vamos ver com desenhos",
+          "narration": "Vamos ver isso com desenhos? Olha só o que acontece na tela, bem devagar, um passo de cada vez.",
+          "visual": "Explicação visual passo a passo: Identificar e nomear círculo, quadrado, retângulo e triângulo em diferentes posições. Objetos grandes e coloridos, um de cada vez, com Nico apontando.",
+          "on_screen_text": null,
+          "duration_sec": 14,
+          "is_song": false
+        },
+        {
+          "number": 4,
+          "title": "Olha quem chegou: Tarsila do Amaral!",
+          "narration": "Olha quem veio visitar a gente: Tarsila do Amaral! Vamos ver como essa pessoa usava essa ideia de um jeito bem legal.",
+          "visual": "Tarsila do Amaral aparece em versão desenho animado, simpática, e mostra um exemplo do tema ao lado de Nico.",
+          "on_screen_text": "Tarsila do Amaral",
+          "duration_sec": 14,
+          "is_song": false
+        },
+        {
+          "number": 5,
+          "title": "Hora da música!",
+          "narration": "Canta comigo! Olha, olha, aprendi, o Nico me ensinou! Conta, pensa, brinca e diz: matemática chegou! Hoje o tema é especial: círculo, quadrado, triângulo e retângulo, vem cantar e aprender, fica fácil de entender!",
+          "visual": "Nico dança no centro da tela com objetos do tema pulando no ritmo. A letra aparece embaixo.",
+          "on_screen_text": "Olha, olha, aprendi, o Nico me ensinou!",
+          "duration_sec": 16,
+          "is_song": true
+        },
+        {
+          "number": 6,
+          "title": "Revisão",
+          "narration": "Lembrou? As formas estão nos desenhos, nas casas e até nos quadros da pintora Tarsila do Amaral.",
+          "visual": "Cartões de revisão aparecem um de cada vez, com Nico apontando cada um.",
+          "on_screen_text": "Revisão",
+          "duration_sec": 11,
+          "is_song": false
+        }
+      ],
+      "song": {
+        "title": "Aprendi com o Nico",
+        "style": "Marchinha alegre, 115 bpm, palmas.",
+        "hook": "Olha, olha, aprendi, o Nico me ensinou!",
+        "parts": [
+          {
+            "label": "Refrão",
+            "lines": [
+              "Olha, olha, aprendi,",
+              "o Nico me ensinou!",
+              "Conta, pensa, brinca e diz:",
+              "matemática chegou!"
+            ]
+          },
+          {
+            "label": "Verso",
+            "lines": [
+              "Hoje o tema é especial:",
+              "círculo, quadrado, triângulo e retângulo,",
+              "vem cantar e aprender,",
+              "fica fácil de entender!"
+            ]
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "question": "Qual era o assunto do vídeo de hoje?",
+          "options": [
+            "Os animais da fazenda",
+            "Círculo, quadrado, triângulo e retângulo",
+            "As cores do arco-íris"
+          ],
+          "answer_index": 1,
+          "explanation": "Hoje a gente aprendeu: círculo, quadrado, triângulo e retângulo."
+        },
+        {
+          "question": "Como se chama o mascote de Matemática?",
+          "options": [
+            "Um dinossauro",
+            "Um astronauta",
+            "Nico"
+          ],
+          "answer_index": 2,
+          "explanation": "É o Nico, o mascote de Matemática!"
+        }
+      ],
+      "review": [
+        "As formas estão nos desenhos, nas casas e até nos quadros da pintora Tarsila do Amaral.",
+        "Na dúvida, desenhe e conte com os dedos!"
+      ],
+      "notes_applied": null
+    },
+    "error": null,
+    "cost_usd": 0,
+    "duration_ms": 3,
+    "created_at": "2026-11-06T18:11:25.046Z",
+    "finished_at": "2026-11-06T18:11:25.052Z"
+  }
+]

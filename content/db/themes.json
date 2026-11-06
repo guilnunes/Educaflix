@@ -1,0 +1,173 @@
+[
+  {
+    "id": "5faa02b2-981b-4669-b283-da834ae1af23",
+    "topic_id": "ee8dcb6f-f5d7-41ad-82bb-3565d4851fa4",
+    "title": "Juntar e acrescentar: a adição",
+    "summary": "Quando a gente junta dois grupos ou ganha mais, a quantidade aumenta.",
+    "learning_goal": "Resolver problemas de adição com os sentidos de juntar e acrescentar.",
+    "bncc_codes": [
+      "EF01MA06",
+      "EF01MA08"
+    ],
+    "people": [],
+    "sort_order": 0,
+    "generation_id": "7fffc4e7-2926-42ce-9b46-f04d4694b48c",
+    "published_at": "2026-11-06T18:11:24.969Z",
+    "created_at": "2026-11-06T18:11:24.805Z"
+  },
+  {
+    "id": "5ff4f1b5-0be6-4345-8f95-7ef1bf878d66",
+    "topic_id": "ee8dcb6f-f5d7-41ad-82bb-3565d4851fa4",
+    "title": "Separar e retirar: a subtração",
+    "summary": "Quando a gente dá, come ou separa, a quantidade diminui.",
+    "learning_goal": "Resolver problemas de subtração com os sentidos de separar e retirar.",
+    "bncc_codes": [
+      "EF01MA08"
+    ],
+    "people": [],
+    "sort_order": 1,
+    "generation_id": "7fffc4e7-2926-42ce-9b46-f04d4694b48c",
+    "published_at": null,
+    "created_at": "2026-11-06T18:11:24.805Z"
+  },
+  {
+    "id": "7f9001b3-0ef6-45d0-86ec-f5657ef155d2",
+    "topic_id": "ee8dcb6f-f5d7-41ad-82bb-3565d4851fa4",
+    "title": "Os amigos do 10",
+    "summary": "Tem muitos jeitos de formar 10: 9 e 1, 8 e 2, 7 e 3, 6 e 4, 5 e 5.",
+    "learning_goal": "Compor e decompor números, com foco nos pares que formam 10.",
+    "bncc_codes": [
+      "EF01MA07"
+    ],
+    "people": [],
+    "sort_order": 2,
+    "generation_id": "7fffc4e7-2926-42ce-9b46-f04d4694b48c",
+    "published_at": null,
+    "created_at": "2026-11-06T18:11:24.805Z"
+  },
+  {
+    "id": "be4fd5b5-89fe-4c89-ac21-3c316d9e4da7",
+    "topic_id": "63a306b8-af5c-4fc3-98e5-dd250414cf4e",
+    "title": "Para que servem os números?",
+    "summary": "Os números aparecem em todo lugar: na idade, na camisa do jogador, no relógio e no telefone.",
+    "learning_goal": "Reconhecer números no dia a dia e perceber que eles indicam quantidade, ordem ou código.",
+    "bncc_codes": [
+      "EF01MA01"
+    ],
+    "people": [],
+    "sort_order": 0,
+    "generation_id": "0e8687d2-1c6f-4536-aad6-4897c59655ac",
+    "published_at": null,
+    "created_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "843ccfd7-730a-424b-b37c-d699e189cac4",
+    "topic_id": "63a306b8-af5c-4fc3-98e5-dd250414cf4e",
+    "title": "Contando um a um",
+    "summary": "Para contar certo, a gente aponta cada coisa uma vez só, sem pular e sem repetir.",
+    "learning_goal": "Contar coleções de forma exata usando estratégias como apontar, separar e agrupar.",
+    "bncc_codes": [
+      "EF01MA02"
+    ],
+    "people": [],
+    "sort_order": 1,
+    "generation_id": "0e8687d2-1c6f-4536-aad6-4897c59655ac",
+    "published_at": null,
+    "created_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "15d0503e-a716-4afe-a7e1-6878644a1ce9",
+    "topic_id": "63a306b8-af5c-4fc3-98e5-dd250414cf4e",
+    "title": "Tem mais, tem menos ou tem igual?",
+    "summary": "Formando pares, dá para descobrir qual grupo tem mais, qual tem menos ou se são iguais.",
+    "learning_goal": "Comparar quantidades por estimativa e por correspondência um a um.",
+    "bncc_codes": [
+      "EF01MA03"
+    ],
+    "people": [],
+    "sort_order": 2,
+    "generation_id": "0e8687d2-1c6f-4536-aad6-4897c59655ac",
+    "published_at": null,
+    "created_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "186c5efb-d4b3-4800-b858-88d35dd59cab",
+    "topic_id": "63a306b8-af5c-4fc3-98e5-dd250414cf4e",
+    "title": "Contando até 100 de 10 em 10",
+    "summary": "Fazer grupinhos de 10 deixa a contagem rápida, como fazia o pequeno Gauss.",
+    "learning_goal": "Contar coleções de até 100 elementos agrupando de 10 em 10 e registrar o resultado.",
+    "bncc_codes": [
+      "EF01MA04"
+    ],
+    "people": [
+      "Carl Friedrich Gauss"
+    ],
+    "sort_order": 3,
+    "generation_id": "0e8687d2-1c6f-4536-aad6-4897c59655ac",
+    "published_at": null,
+    "created_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "93f6fbcb-752e-4d91-8368-6fd5aeeef4f8",
+    "topic_id": "63a306b8-af5c-4fc3-98e5-dd250414cf4e",
+    "title": "Quem vem antes e quem vem depois?",
+    "summary": "Na reta numérica, cada número tem seu lugar: o menor vem antes e o maior vem depois.",
+    "learning_goal": "Comparar e ordenar números de até duas ordens, com e sem a reta numérica.",
+    "bncc_codes": [
+      "EF01MA05"
+    ],
+    "people": [],
+    "sort_order": 4,
+    "generation_id": "0e8687d2-1c6f-4536-aad6-4897c59655ac",
+    "published_at": null,
+    "created_at": "2026-11-06T18:11:24.813Z"
+  },
+  {
+    "id": "9db400f6-9ba6-466e-a71d-2b98a4a87bbc",
+    "topic_id": "3d0c4a39-acb3-479c-9bf5-376b4ffc6d26",
+    "title": "Direita, esquerda, frente e atrás",
+    "summary": "Para explicar onde as coisas estão, a gente usa palavras como direita, esquerda, frente e atrás.",
+    "learning_goal": "Descrever a localização de pessoas e objetos usando pontos de referência.",
+    "bncc_codes": [
+      "EF01MA11",
+      "EF01MA12"
+    ],
+    "people": [],
+    "sort_order": 0,
+    "generation_id": "48f4f142-a9c8-44cf-99bb-1ebb009b5f96",
+    "published_at": null,
+    "created_at": "2026-11-06T18:11:24.824Z"
+  },
+  {
+    "id": "094d46b7-c67e-46e6-bacf-55fc8560b4ce",
+    "topic_id": "3d0c4a39-acb3-479c-9bf5-376b4ffc6d26",
+    "title": "Formas que rolam e formas que não rolam",
+    "summary": "A bola rola, a caixa não rola: cada forma tem um jeito diferente.",
+    "learning_goal": "Relacionar figuras espaciais (esfera, cilindro, cone, bloco) a objetos do dia a dia.",
+    "bncc_codes": [
+      "EF01MA13"
+    ],
+    "people": [],
+    "sort_order": 1,
+    "generation_id": "48f4f142-a9c8-44cf-99bb-1ebb009b5f96",
+    "published_at": null,
+    "created_at": "2026-11-06T18:11:24.824Z"
+  },
+  {
+    "id": "910dd9d8-e6e0-4301-b4c4-76a4ecd42c32",
+    "topic_id": "3d0c4a39-acb3-479c-9bf5-376b4ffc6d26",
+    "title": "Círculo, quadrado, triângulo e retângulo",
+    "summary": "As formas estão nos desenhos, nas casas e até nos quadros da pintora Tarsila do Amaral.",
+    "learning_goal": "Identificar e nomear círculo, quadrado, retângulo e triângulo em diferentes posições.",
+    "bncc_codes": [
+      "EF01MA14"
+    ],
+    "people": [
+      "Tarsila do Amaral"
+    ],
+    "sort_order": 2,
+    "generation_id": "48f4f142-a9c8-44cf-99bb-1ebb009b5f96",
+    "published_at": null,
+    "created_at": "2026-11-06T18:11:24.824Z"
+  }
+]

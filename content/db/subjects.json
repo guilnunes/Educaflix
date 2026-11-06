@@ -1,0 +1,56 @@
+[
+  {
+    "id": "matematica",
+    "name": "Matemática",
+    "color": "#2f6fde",
+    "character_name": "Nico",
+    "character_summary": "Um número estilizado que muda de forma para virar o número da cena.",
+    "skill_file": "materias/matematica.md",
+    "sort_order": 1
+  },
+  {
+    "id": "portugues",
+    "name": "Português",
+    "color": "#d0473f",
+    "character_name": "Livro de óculos",
+    "character_summary": "Um livro curioso de óculos (a definir).",
+    "skill_file": "materias/portugues.md",
+    "sort_order": 2
+  },
+  {
+    "id": "ciencias",
+    "name": "Ciências",
+    "color": "#1f9d6b",
+    "character_name": "Robozinho",
+    "character_summary": "Um robozinho amigável (a definir).",
+    "skill_file": "materias/ciencias.md",
+    "sort_order": 3
+  },
+  {
+    "id": "historia",
+    "name": "História",
+    "color": "#a5682a",
+    "character_name": "Explorador",
+    "character_summary": "Um explorador aventureiro de chapéu e mochila (a definir).",
+    "skill_file": "materias/historia.md",
+    "sort_order": 4
+  },
+  {
+    "id": "geografia",
+    "name": "Geografia",
+    "color": "#1b8aa6",
+    "character_name": "Navegador",
+    "character_summary": "Um navegador com mapa e luneta (a definir).",
+    "skill_file": "materias/geografia.md",
+    "sort_order": 5
+  },
+  {
+    "id": "artes",
+    "name": "Artes",
+    "color": "#9b4fc4",
+    "character_name": "Pintor",
+    "character_summary": "Um pintor/artista de boina e pincel (a definir).",
+    "skill_file": "materias/artes.md",
+    "sort_order": 6
+  }
+]
