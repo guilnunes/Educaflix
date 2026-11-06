@@ -8,5 +8,8 @@ dist/
 .env.*
 !.env.example
 
+# Ferramentas locais (voz do Piper etc.), baixadas por npm run setup:piper
+.cache/
+
 # Arquivos temporários do servidor
 content/**/*.tmp
