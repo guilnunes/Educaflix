@@ -25,9 +25,9 @@ no prompt. Cada geração vira uma versão no histórico, com modelo usado, prom
 custo estimado, tempo de geração e data. A tela do tema mostra as três etapas juntas, e
 a tela **Comparar modelos** monta a comparação a partir desses dados.
 
-Hoje todos os modelos são **mock**: geram conteúdo de exemplo sem nenhuma chave de API,
-para o fluxo inteiro funcionar de ponta a ponta. A escolha dos modelos reais está em
-[`docs/opcoes-de-modelos.md`](docs/opcoes-de-modelos.md).
+Sem configuração nenhuma, tudo roda com modelos **mock** (conteúdo de exemplo, sem chave).
+Os modelos reais escolhidos já estão ligados e entram pelo `.env`: veja
+[Modelos de IA](#modelos-de-ia) e [`docs/opcoes-de-modelos.md`](docs/opcoes-de-modelos.md).
 
 ## Dois modos
 
@@ -43,13 +43,17 @@ acontece no modo local, o resultado é commitado em `content/` e o Pages mostra 
 
 ## Como rodar no modo local
 
-Precisa do Node.js 22.12 ou mais novo.
+Precisa do Node.js 22.12 ou mais novo. Para o vídeo final, do **ffmpeg** (`brew install ffmpeg`,
+`sudo apt install ffmpeg` ou `winget install ffmpeg`).
 
 ```bash
 npm install
-cp .env.example .env   # opcional enquanto só existir o mock
+npm run setup:piper    # voz local gratuita em português (precisa de Python 3)
+cp .env.example .env   # perfil gratuito + assinaturas; ajuste se quiser
 npm run dev
 ```
+
+Sem `.env`, tudo roda com os exemplos (mock).
 
 Abra http://localhost:5173. O comando sobe duas coisas:
 
@@ -81,6 +85,38 @@ estático e publica no GitHub Pages.
 - O Pages precisa estar com a origem **GitHub Actions** (Settings → Pages → Build and
   deployment → Source). Com a origem "Deploy from a branch", o GitHub publica a `main`
   crua e o deploy do workflow falha.
+
+## Modelos de IA
+
+| Tipo | Provedor (`<TIPO>_PROVIDER`) | Modelos | Cobrança | Precisa de |
+| --- | --- | --- | --- | --- |
+| Texto | `claude-assinatura` | `sonnet`, `haiku`, `opus` | Assinatura Claude Pro/Max | Claude Code instalado e logado |
+| Texto | `anthropic` | `claude-haiku-5-5`, `claude-sonnet-5-5`, `claude-opus-5-5` | Por uso | `ANTHROPIC_API_KEY` |
+| Imagem | `google` | `gemini-3.1-flash-image`, `gemini-3.1-flash-lite-image` | Por uso | `GOOGLE_API_KEY` com cobrança ativa |
+| Imagem | `fal` | `fal-ai/flux-2/klein/4b`, `.../9b` | Por uso | `FAL_KEY` |
+| Voz | `piper` | `pt_BR-faber-medium` | Gratuito, local | `npm run setup:piper` |
+| Voz | `elevenlabs` | `eleven_v4`, `eleven_flash_v2_5`, `eleven_multilingual_v2` | Créditos da assinatura | `ELEVENLABS_API_KEY` |
+| Música | `google` | `lyria-3-clip-preview`, `lyria-3-pro-preview`, `lyria-3.5` | Por uso | `GOOGLE_API_KEY` com cobrança ativa |
+| Música | `elevenlabs` | `music_v2_5`, `music_v2` | Créditos de plano pago | `ELEVENLABS_API_KEY` |
+| Vídeo | `ffmpeg` | `montagem-local-v1` | Gratuito, local | ffmpeg instalado |
+| Vídeo | `fal-kling` | `kling-3-standard` | Por uso (anima 3 cenas) | ffmpeg e `FAL_KEY` |
+
+Todos têm também o `mock`. O admin mostra, no botão "Gerar de novo", quais modelos estão
+prontos e o que falta para os outros.
+
+- **Claude pela assinatura:** usa o `claude -p` do Claude Code, com o login da assinatura
+  (sem `ANTHROPIC_API_KEY`). A Anthropic permite isso para uso pessoal do assinante; se o
+  servidor um dia atender outras pessoas, use o provedor `anthropic` com chave de API.
+- **ElevenLabs:** a chave de API de qualquer plano usa os créditos da assinatura. A música
+  por API exige plano pago. Escolha a voz em `ELEVENLABS_VOICE_ID`.
+- **Google (Gemini e Lyria):** a assinatura Google AI Pro não dá créditos de API, e imagem e
+  música não têm camada gratuita na API; é preciso ativar a cobrança no AI Studio.
+- **Vídeo:** o `ffmpeg` monta o MP4 na máquina: cada imagem vira uma cena com movimento suave
+  de câmera, com narração, música na cena da música e legenda em português (arquivo `.vtt` e
+  embutida no MP4). O `fal-kling` faz o mesmo e anima até 3 cenas com o Kling.
+
+Testados de verdade: `mock`, `piper` e `ffmpeg`. Os provedores pagos têm testes com
+respostas simuladas e ainda precisam de um primeiro teste com chave real.
 
 ## Como trocar os provedores de modelo
 

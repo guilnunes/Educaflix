@@ -11,7 +11,8 @@ Guia para as próximas sessões do Claude Code neste repositório.
   aluno, do pai, login, pagamentos, gestão de usuários, analytics, marca definitiva.
 - Diretiva: começar com modelos locais ou baratos. Antes de implementar um provedor real,
   mostrar opções (custo, qualidade, roda local?) e esperar a escolha do usuário.
-  Lista atual: `docs/opcoes-de-modelos.md`.
+  Decisão e opções: `docs/opcoes-de-modelos.md`. Hoje não há cartão para cobrança por uso:
+  o perfil ativo é gratuito + assinaturas (Claude Code, Piper, ffmpeg).
 
 ## Idioma
 
@@ -32,7 +33,10 @@ Guia para as próximas sessões do Claude Code neste repositório.
     Para migrar ao Supabase, troque esta classe mantendo `read()` e `transact()`.
   - `skills.ts`: lê `skills/` a cada geração e monta os prompts.
   - `providers/`: uma interface por papel (texto, imagem, voz, música, vídeo), o registro
-    (`registry.ts`) e o provedor `mock`.
+    (`registry.ts`), o `mock` e os reais: `anthropic`, `claude-assinatura`, `google`
+    (Gemini Image e Lyria), `elevenlabs`, `fal` (FLUX e Kling), `piper` e `ffmpeg`.
+    Use os SDKs oficiais; aceite um cliente falso no construtor para os testes.
+  - `media-tools.ts`: ffmpeg/ffprobe e programas locais.
 - `shared/types.ts`: modelo de dados e tipos de saída. Fonte de verdade das tabelas.
 - `skills/`: regras e prompts em Markdown, para professores. Não coloque texto de prompt
   ou regra de conteúdo no código; use `{{campos}}` nos arquivos de prompt.
@@ -60,7 +64,9 @@ Guia para as próximas sessões do Claude Code neste repositório.
 - `npm run dev`: admin (5173) + API local (8787).
 - `npm run check`: tipos + testes. Rode antes de todo push.
 - `npm run build` e `npm run preview`: build estático em `/Educaflix/`.
-- `npm run seed:demo -- --reset`: refaz o conteúdo de demonstração em `content/`.
+- `npm run seed:demo -- --reset`: refaz o conteúdo de demonstração em `content/`. A demo
+  publicada foi gerada com `SPEECH_PROVIDER=piper VIDEO_PROVIDER=ffmpeg` (texto e imagem mock).
+- `npm run setup:piper`: instala o Piper e a voz pt-BR em `.cache/` (ignorado pelo git).
 
 ## Git e deploy
 

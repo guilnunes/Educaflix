@@ -1,4 +1,33 @@
-# Opções de modelos (aguardando escolha)
+# Opções de modelos
+
+## Decisão (06/11/2026)
+
+Escolhida a recomendação abaixo. Como ainda não há cartão de crédito para cobrança por uso,
+o perfil ativo hoje é **gratuito + assinaturas**, e o recomendado fica pronto para quando
+houver cobrança:
+
+| Tipo | Hoje (gratuito + assinaturas) | Recomendado (por uso) | Comparação |
+| --- | --- | --- | --- |
+| Texto | Claude pela assinatura (Claude Code), `sonnet` | Claude Haiku 5.5 | Claude Sonnet 5.5 |
+| Imagem | Mock (sem opção gratuita por API) | Gemini 3.1 Flash Image | FLUX.2 Klein (fal) |
+| Voz | Piper local (ou ElevenLabs pela assinatura) | ElevenLabs `eleven_v4` | Piper local |
+| Música | Mock (ou ElevenLabs Music, plano pago) | Google Lyria 3 clip | ElevenLabs Music |
+| Vídeo | Montagem local com ffmpeg | Montagem local com ffmpeg | Kling 3.0 em 3 cenas (fal) |
+
+Mudança em relação à lista: a voz local de comparação é o **Piper** em vez do Kokoro. O Piper
+instala com um comando (`npm run setup:piper`) e roda na CPU; o Kokoro exige PyTorch.
+
+## Assinaturas: servem no lugar da cobrança por uso?
+
+| Serviço | Serve? | Como |
+| --- | --- | --- |
+| Claude Pro/Max | Sim, para uso pessoal | Pelo Claude Code instalado (`claude -p`), sem chave de API. A política da Anthropic reserva a assinatura para uso do próprio assinante; para atender outras pessoas, use a API. |
+| ElevenLabs | Sim | A chave de API usa os créditos do plano (inclusive o gratuito, sem licença comercial). Música por API só em plano pago. |
+| Google AI Pro (Gemini) | Não | Não dá créditos de API. Imagem e música na API do Gemini não têm camada gratuita em novembro de 2026. |
+| Higgsfield | Não | Os créditos do plano do site não valem na API, que tem saldo separado. |
+| fal.ai | Não há assinatura | Só créditos pré-pagos. |
+
+## Lista original
 
 Lista curta para escolher os primeiros provedores reais. Diretiva do projeto: começar
 com modelos locais ou baratos. Preços pesquisados em novembro de 2026; mudam com
@@ -80,3 +109,8 @@ Chaves necessárias (só no `.env` local): `ANTHROPIC_API_KEY`, `GOOGLE_API_KEY`
 - [Kling AI Pricing (Nov 2026)](https://costgoat.com/pricing/kling)
 - [Best AI Video Models Sept 2026](https://www.teamday.ai/blog/best-ai-video-models-2026)
 - [Best local LLMs for Portuguese 2026](https://www.promptquorum.com/local-llms/best-local-llms-portuguese-language-2026)
+- [Gemini API Free Tier in 2026](https://www.aifreeapi.com/en/posts/google-gemini-api-free-tier)
+- [ElevenLabs pricing 2026: plans, credits, and API](https://www.cartesia.ai/learn/elevenlabs-pricing)
+- [AI Video API Pricing vs Subscriptions (Higgsfield)](https://higgsfield.ai/blog/ai-video-api-pricing-vs-subscriptions)
+- Claude Code: documentação oficial de modo headless, autenticação e termos (code.claude.com)
+- Nomes de modelos conferidos nos SDKs oficiais: `@google/genai` 3.0, `@elevenlabs/elevenlabs-js` 2.77, `@anthropic-ai/sdk` 1.6
