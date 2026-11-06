@@ -14,12 +14,55 @@ export function VideoView({ video }: { video: VideoOutput }) {
       .catch((e) => setError(String(e)));
   }, [video.format, video.path]);
 
-  if (video.format === 'mp4') {
-    return <video className="player-video" src={mediaUrl(video.path)} controls />;
-  }
+  if (video.format === 'mp4') return <Mp4Player video={video} />;
   if (error) return <p className="error">Não consegui abrir o vídeo: {error}</p>;
   if (!manifest) return <p className="muted">Carregando vídeo…</p>;
   return <AnimaticPlayer manifest={manifest} />;
+}
+
+/** Vídeo MP4 com legenda em português; revisão e quiz embaixo, abertos quando o vídeo acaba. */
+function Mp4Player({ video }: { video: VideoOutput }) {
+  const [ended, setEnded] = useState(false);
+  const [quizKey, setQuizKey] = useState(0);
+  const [quizDone, setQuizDone] = useState(false);
+  const quiz = video.quiz ?? [];
+  const review = video.review ?? [];
+  return (
+    <div className="player">
+      <video className="player-video" controls preload="metadata" src={mediaUrl(video.path)} onEnded={() => setEnded(true)}>
+        {video.subtitles_path && <track kind="subtitles" srcLang="pt-BR" label="Português" src={mediaUrl(video.subtitles_path)} default />}
+      </video>
+      {(quiz.length > 0 || review.length > 0) && (
+        <details className="end-cards" open={ended}>
+          <summary>Revisão e quiz (aparecem no fim do vídeo)</summary>
+          {review.length > 0 && (
+            <>
+              <h4>Revisão</h4>
+              <ul className="review">
+                {review.map((r, i) => (
+                  <li key={i}>{r}</li>
+                ))}
+              </ul>
+            </>
+          )}
+          {quiz.length > 0 && (
+            <div className="quiz-inline">
+              {quizDone ? (
+                <p>
+                  Fim do quiz! O resultado não bloqueia o próximo vídeo.{' '}
+                  <button type="button" className="btn btn-ghost" onClick={() => (setQuizDone(false), setQuizKey(quizKey + 1))}>
+                    Fazer de novo
+                  </button>
+                </p>
+              ) : (
+                <Quiz key={quizKey} manifest={{ quiz } as AnimaticManifest} onDone={() => setQuizDone(true)} />
+              )}
+            </div>
+          )}
+        </details>
+      )}
+    </div>
+  );
 }
 
 type Phase = 'scenes' | 'review' | 'quiz' | 'end';

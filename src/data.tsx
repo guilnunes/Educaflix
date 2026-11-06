@@ -49,8 +49,9 @@ export interface ModelOption {
   model: string;
   label: string;
   local: boolean;
+  billing: 'gratuito' | 'assinatura' | 'por uso';
   available: boolean;
-  missing_env: string[];
+  missing: string[];
 }
 
 export interface ModelList {

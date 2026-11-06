@@ -74,8 +74,8 @@ export function GenerateForm({
               <select value={choice[role] ?? list.defaults[role]} onChange={(e) => setChoice({ ...choice, [role]: e.target.value })}>
                 {list.options[role].map((o) => (
                   <option key={o.id} value={o.id} disabled={!o.available}>
-                    {o.label}
-                    {o.available ? '' : ` (falta ${o.missing_env.join(', ')})`}
+                    {o.label} · {o.billing}
+                    {o.available ? '' : ` (falta ${o.missing.join(', ')})`}
                   </option>
                 ))}
               </select>

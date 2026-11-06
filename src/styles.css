@@ -863,6 +863,24 @@ textarea {
 .player-video {
   width: 100%;
   border-radius: 10px;
+  background: #10131a;
+  display: block;
+}
+.end-cards {
+  margin-top: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.6rem 0.9rem;
+}
+.end-cards summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.quiz-inline .card-screen {
+  position: static;
+  padding: 1rem 0 0.25rem;
+  align-items: flex-start;
+  text-align: left;
 }
 .screen {
   position: relative;
