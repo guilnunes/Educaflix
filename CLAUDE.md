@@ -68,6 +68,13 @@ Guia para as próximas sessões do Claude Code neste repositório.
   publicada foi gerada com `SPEECH_PROVIDER=piper VIDEO_PROVIDER=ffmpeg` (texto e imagem mock).
 - `npm run setup:piper`: instala o Piper e a voz pt-BR em `.cache/` (ignorado pelo git).
 
+## Nesta nuvem (Claude Code na web)
+
+- A chave da ElevenLabs está salva no ambiente e o proxy injeta no `api.elevenlabs.io`.
+  Rode com `ELEVENLABS_API_KEY=proxy-injected` e `NODE_USE_ENV_PROXY=1` (o `fetch` do Node
+  não usa o proxy sem isso).
+- Hugging Face liberado na rede, para `npm run setup:piper`.
+
 ## Git e deploy
 
 - Commits pequenos e descritivos, em português. Push direto na `main` (pedido do usuário).

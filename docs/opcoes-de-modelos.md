@@ -17,6 +17,9 @@ houver cobrança:
 Mudança em relação à lista: a voz local de comparação é o **Piper** em vez do Kokoro. O Piper
 instala com um comando (`npm run setup:piper`) e roda na CPU; o Kokoro exige PyTorch.
 
+Testado com chave real em 06/11/2026: ElevenLabs `eleven_v4` (voz Michele) e `music_v2_5`,
+pela assinatura. Um vídeo de 1 min 38 s gastou o equivalente a US$ 0,15 em créditos.
+
 ## Assinaturas: servem no lugar da cobrança por uso?
 
 | Serviço | Serve? | Como |

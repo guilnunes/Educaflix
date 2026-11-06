@@ -115,8 +115,9 @@ prontos e o que falta para os outros.
   de câmera, com narração, música na cena da música e legenda em português (arquivo `.vtt` e
   embutida no MP4). O `fal-kling` faz o mesmo e anima até 3 cenas com o Kling.
 
-Testados de verdade: `mock`, `piper` e `ffmpeg`. Os provedores pagos têm testes com
-respostas simuladas e ainda precisam de um primeiro teste com chave real.
+Testados de verdade: `mock`, `piper`, `ffmpeg` e `elevenlabs` (voz e música, com a
+assinatura). Os outros têm testes com respostas simuladas e ainda precisam de um primeiro
+teste com chave real.
 
 ## Como trocar os provedores de modelo
 
