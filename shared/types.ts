@@ -277,7 +277,12 @@ export interface VideoOutput {
   format: 'animatic' | 'mp4';
   /** Para "animatic": caminho do manifest JSON. Para "mp4": caminho do arquivo. */
   path: string;
+  /** Legenda em WebVTT (português), quando o vídeo é MP4. */
+  subtitles_path?: string | null;
   duration_sec: number;
+  /** Quiz e revisão do roteiro, mostrados depois do vídeo. */
+  quiz?: QuizQuestion[];
+  review?: string[];
   notes_applied?: string | null;
 }
 

@@ -23,6 +23,7 @@ import { STAGE_ORDER } from '../shared/types';
 import { resolveProviders } from './providers/registry';
 import type { ModelChoice, ProviderRole, ProviderSet, TextContext, VideoSceneInput } from './providers/types';
 import type { PromptKey, SkillBundle, Skills } from './skills';
+import { SCHEMAS } from './schemas';
 import { type JsonStore, newId, nowIso } from './store';
 
 export class FlowError extends Error {
@@ -132,6 +133,7 @@ export class Pipeline {
 
   async generateTopics(courseId: string, opts: GenerateOptions = {}): Promise<Started> {
     const providers = this.makeProviders(opts.models ?? {});
+    ensureRoles(providers, ['text']);
     const db = await this.store.read();
     const course = must(db.courses.find((c) => c.id === courseId), 'Curso não encontrado.');
     const { subject, grade } = courseRefs(db, course);
@@ -144,7 +146,7 @@ export class Pipeline {
         const prompt = await this.skills.render('topics', baseVars(subject, bundle), note);
         const ctx: TextContext = { subject, grade, note, version: gen.version };
         const { result } = await record('text', providers.text, 'lista de assuntos', fullPrompt(bundle, prompt), () =>
-          providers.text.generateJson<TopicsOutput>({ task: 'topics', system: bundle.system, prompt, context: ctx }),
+          providers.text.generateJson<TopicsOutput>({ task: 'topics', system: bundle.system, prompt, context: ctx, schema: SCHEMAS.topics }),
         );
         const output = normalizeTopics(result.data);
         return {
@@ -161,6 +163,7 @@ export class Pipeline {
 
   async generateThemes(topicId: string, opts: GenerateOptions = {}): Promise<Started> {
     const providers = this.makeProviders(opts.models ?? {});
+    ensureRoles(providers, ['text']);
     const db = await this.store.read();
     const topic = must(db.topics.find((t) => t.id === topicId), 'Assunto não encontrado.');
     const course = must(db.courses.find((c) => c.id === topic.course_id), 'Curso não encontrado.');
@@ -184,7 +187,7 @@ export class Pipeline {
           topic: { title: topic.title, description: topic.description },
         };
         const { result } = await record('text', providers.text, 'lista de temas', fullPrompt(bundle, prompt), () =>
-          providers.text.generateJson<ThemesOutput>({ task: 'themes', system: bundle.system, prompt, context: ctx }),
+          providers.text.generateJson<ThemesOutput>({ task: 'themes', system: bundle.system, prompt, context: ctx, schema: SCHEMAS.themes }),
         );
         const output = normalizeThemes(result.data);
         return { output, apply: (db, gen) => mergeThemes(db, topic.id, output, gen.id) };
@@ -203,6 +206,7 @@ export class Pipeline {
     const ctx = themeRefs(db, stage.theme_id);
     if (stage.status === 'generating') throw new FlowError('Esta etapa já está gerando. Espere terminar.', 409);
     if (stage.status === 'locked') throw new FlowError('Aprove a etapa anterior antes de gerar esta.', 409);
+    ensureRoles(providers, STAGE_ROLES[stage.kind]);
 
     const upstream = stagesOf(db, stage.theme_id);
     const inputs: Record<string, string> = {};
@@ -244,12 +248,14 @@ export class Pipeline {
             theme: ctx.theme,
           };
           const { result } = await record('text', providers.text, 'roteiro, quiz e música', fullPrompt(bundle, prompt), () =>
-            providers.text.generateJson<ScriptOutput>({ task: 'script', system: bundle.system, prompt, context: text }),
+            providers.text.generateJson<ScriptOutput>({ task: 'script', system: bundle.system, prompt, context: text, schema: SCHEMAS.script }),
           );
           output = normalizeScript(result.data, note);
         } else if (stage.kind === 'storyboard') {
           const script = await this.outputOf<ScriptOutput>(inputs.script_generation_id);
           const frames: StoryboardOutput['frames'] = [];
+          // A primeira cena gerada vira referência das outras, para o personagem não mudar.
+          const references: { data: Buffer; mime: string }[] = [];
           for (const scene of script.scenes) {
             const cast = script.characters.filter((c) => `${scene.visual} ${scene.narration}`.includes(c.name.split(' ')[0]));
             const prompt = await this.skills.render(
@@ -276,8 +282,12 @@ export class Pipeline {
                 script,
                 subject: ctx.subject,
                 version: gen.version,
+                references: providers.image.supportsReferences ? references : undefined,
               }),
             );
+            if (providers.image.supportsReferences && references.length === 0 && result.ext !== 'svg') {
+              references.push({ data: result.data, mime: `image/${result.ext === 'jpg' ? 'jpeg' : result.ext}` });
+            }
             const path = await this.store.writeMedia(`${mediaDir}/cena-${pad(scene.number)}.${result.ext}`, result.data);
             call.output_path = path;
             frames.push({ scene_number: scene.number, caption: scene.visual, image_path: path });
@@ -320,7 +330,14 @@ export class Pipeline {
             note,
           );
           const music = await record('music', providers.music, 'música', musicPrompt, () =>
-            providers.music.compose({ prompt: musicPrompt, title: script.song.title, style: script.song.style, lyrics, duration_sec: 20 }),
+            providers.music.compose({
+              prompt: musicPrompt,
+              title: script.song.title,
+              style: script.song.style,
+              lyrics,
+              parts: script.song.parts,
+              duration_sec: 30,
+            }),
           );
           let musicPath: string | null = null;
           if (music.result.data && music.result.ext) {
@@ -350,10 +367,17 @@ export class Pipeline {
           );
           const videoPath = await this.store.writeMedia(`${mediaDir}/${video.result.main.name}`, video.result.main.data);
           video.call.output_path = videoPath;
+          if (video.result.detail) video.call.purpose = `montagem do vídeo (${video.result.detail})`;
+          const subtitlesPath = video.result.subtitles
+            ? await this.store.writeMedia(`${mediaDir}/${video.result.subtitles.name}`, video.result.subtitles.data)
+            : null;
           output = {
             format: video.result.format,
             path: videoPath,
+            subtitles_path: subtitlesPath,
             duration_sec: video.result.duration_sec,
+            quiz: script.quiz,
+            review: script.review,
             notes_applied: note,
           } satisfies VideoOutput;
         }
@@ -545,6 +569,21 @@ export class Pipeline {
 // Regras de estado
 // ---------------------------------------------------------------------------
 
+const STAGE_ROLES: Record<StageKind, ProviderRole[]> = {
+  script: ['text'],
+  storyboard: ['image'],
+  video: ['speech', 'music', 'video'],
+};
+
+/** Cria já os provedores que a geração vai usar, para erro de configuração aparecer antes de começar. */
+function ensureRoles(providers: ProviderSet, roles: ProviderRole[]) {
+  try {
+    for (const r of roles) void providers[r];
+  } catch (e) {
+    throw new FlowError(e instanceof Error ? e.message : String(e), 400);
+  }
+}
+
 function stagesOf(db: Database, themeId: string): Record<StageKind, Stage> {
   const out = {} as Record<StageKind, Stage>;
   for (const kind of STAGE_ORDER) {
@@ -665,7 +704,7 @@ function mergeThemes(db: Database, topicId: string, output: ThemesOutput, genera
 function normalizeTopics(data: TopicsOutput): TopicsOutput {
   if (!Array.isArray(data?.topics) || data.topics.length === 0) throw new Error('O modelo não devolveu nenhum assunto.');
   return {
-    topics: data.topics.map((t) => ({ title: str(t.title), description: str(t.description), bncc_unit: t.bncc_unit ?? null })),
+    topics: data.topics.map((t) => ({ title: str(t.title), description: str(t.description), bncc_unit: t.bncc_unit || null })),
     notes_applied: data.notes_applied ?? null,
   };
 }

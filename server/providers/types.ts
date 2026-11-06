@@ -38,6 +38,8 @@ export interface TextRequest {
   prompt: string;
   /** Contexto estruturado. Provedores reais podem ignorar; o mock usa. */
   context: TextContext;
+  /** JSON Schema da resposta esperada (saída estruturada). */
+  schema: Record<string, unknown>;
 }
 
 export interface Usage {
@@ -76,6 +78,8 @@ export interface ImageRequest {
   script: ScriptOutput;
   subject: Subject;
   version: number;
+  /** Imagens de referência (ex.: a primeira cena), para manter o personagem igual. */
+  references?: { data: Buffer; mime: string }[];
 }
 
 export interface ImageResult extends ProviderResult {
@@ -86,6 +90,8 @@ export interface ImageResult extends ProviderResult {
 export interface ImageProvider {
   readonly provider: string;
   readonly model: string;
+  /** Aceita imagens de referência para consistência do personagem. */
+  readonly supportsReferences?: boolean;
   generateImage(req: ImageRequest): Promise<ImageResult>;
 }
 
@@ -113,6 +119,8 @@ export interface MusicRequest {
   title: string;
   style: string;
   lyrics: string[];
+  /** Partes da música (refrão, verso) com a letra. */
+  parts: { label: string; lines: string[] }[];
   duration_sec: number;
 }
 
@@ -155,7 +163,11 @@ export interface VideoResult extends ProviderResult {
   format: 'animatic' | 'mp4';
   /** Arquivo principal (manifest JSON ou mp4), gravado na pasta da geração. */
   main: VideoFile;
+  /** Legenda WebVTT, quando houver. */
+  subtitles?: VideoFile;
   duration_sec: number;
+  /** Detalhe para o histórico, ex.: "3 cenas animadas". */
+  detail?: string;
 }
 
 export interface VideoProvider {
