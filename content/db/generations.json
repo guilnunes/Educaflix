@@ -1,9 +1,9 @@
 [
   {
-    "id": "34bded56-73d6-4706-aae1-dda59e58538b",
+    "id": "f29ba1b6-56d1-41d4-afda-eddfadedb403",
     "kind": "topics",
     "target_type": "course",
-    "target_id": "dc17a884-cdef-4315-aa0e-751bdbacbf9e",
+    "target_id": "dddca108-f75b-430d-87ba-d718083056ce",
     "theme_id": null,
     "version": 1,
     "status": "succeeded",
@@ -49,14 +49,14 @@
     "error": null,
     "cost_usd": 0,
     "duration_ms": 3,
-    "created_at": "2026-11-06T18:11:24.790Z",
-    "finished_at": "2026-11-06T18:11:24.793Z"
+    "created_at": "2026-11-06T19:50:02.622Z",
+    "finished_at": "2026-11-06T19:50:02.626Z"
   },
   {
-    "id": "7fffc4e7-2926-42ce-9b46-f04d4694b48c",
+    "id": "d47efbc7-6a45-4393-83e0-b3335a20d2b8",
     "kind": "themes",
     "target_type": "topic",
-    "target_id": "ee8dcb6f-f5d7-41ad-82bb-3565d4851fa4",
+    "target_id": "dae6f027-712c-4b65-bfc8-a983a2f7c595",
     "theme_id": null,
     "version": 1,
     "status": "succeeded",
@@ -100,14 +100,14 @@
     "error": null,
     "cost_usd": 0,
     "duration_ms": 2,
-    "created_at": "2026-11-06T18:11:24.802Z",
-    "finished_at": "2026-11-06T18:11:24.805Z"
+    "created_at": "2026-11-06T19:50:02.634Z",
+    "finished_at": "2026-11-06T19:50:02.637Z"
   },
   {
-    "id": "0e8687d2-1c6f-4536-aad6-4897c59655ac",
+    "id": "5206f6c7-72ed-4af4-b4c4-95810a78f91c",
     "kind": "themes",
     "target_type": "topic",
-    "target_id": "63a306b8-af5c-4fc3-98e5-dd250414cf4e",
+    "target_id": "36a9ee1d-cc22-4f4b-93dd-069d8ccb46d7",
     "theme_id": null,
     "version": 1,
     "status": "succeeded",
@@ -170,14 +170,14 @@
     "error": null,
     "cost_usd": 0,
     "duration_ms": 2,
-    "created_at": "2026-11-06T18:11:24.810Z",
-    "finished_at": "2026-11-06T18:11:24.813Z"
+    "created_at": "2026-11-06T19:50:02.644Z",
+    "finished_at": "2026-11-06T19:50:02.646Z"
   },
   {
-    "id": "48f4f142-a9c8-44cf-99bb-1ebb009b5f96",
+    "id": "1589f64c-a954-4141-a030-a8516e683023",
     "kind": "themes",
     "target_type": "topic",
-    "target_id": "3d0c4a39-acb3-479c-9bf5-376b4ffc6d26",
+    "target_id": "9ff19a46-6f3a-4260-a1bf-e64e3829d293",
     "theme_id": null,
     "version": 1,
     "status": "succeeded",
@@ -222,16 +222,16 @@
     },
     "error": null,
     "cost_usd": 0,
-    "duration_ms": 2,
-    "created_at": "2026-11-06T18:11:24.821Z",
-    "finished_at": "2026-11-06T18:11:24.824Z"
+    "duration_ms": 3,
+    "created_at": "2026-11-06T19:50:02.653Z",
+    "finished_at": "2026-11-06T19:50:02.657Z"
   },
   {
-    "id": "772c014c-968a-4199-b841-46b6c7dbe8ec",
+    "id": "949a3ec2-2b92-4f29-909b-78540b78dd7d",
     "kind": "script",
     "target_type": "stage",
-    "target_id": "12ee6587-265a-4ff9-a68d-88a8bf698cd9",
-    "theme_id": "5faa02b2-981b-4669-b283-da834ae1af23",
+    "target_id": "53c7faa1-111e-464e-b645-c21e7e628202",
+    "theme_id": "f7949748-c172-4283-9c9b-8bef12855a2f",
     "version": 1,
     "status": "succeeded",
     "note": null,
@@ -405,16 +405,16 @@
     },
     "error": null,
     "cost_usd": 0,
-    "duration_ms": 3,
-    "created_at": "2026-11-06T18:11:24.833Z",
-    "finished_at": "2026-11-06T18:11:24.838Z"
+    "duration_ms": 7,
+    "created_at": "2026-11-06T19:50:02.667Z",
+    "finished_at": "2026-11-06T19:50:02.676Z"
   },
   {
-    "id": "6199f77a-3ef5-4201-aa6a-02ea5be81d77",
+    "id": "90d67802-a073-4848-82c9-7f66d167689f",
     "kind": "script",
     "target_type": "stage",
-    "target_id": "12ee6587-265a-4ff9-a68d-88a8bf698cd9",
-    "theme_id": "5faa02b2-981b-4669-b283-da834ae1af23",
+    "target_id": "53c7faa1-111e-464e-b645-c21e7e628202",
+    "theme_id": "f7949748-c172-4283-9c9b-8bef12855a2f",
     "version": 2,
     "status": "succeeded",
     "note": "Troque as bananas por mangas e deixe a música mais curta.",
@@ -582,22 +582,22 @@
     "error": null,
     "cost_usd": 0,
     "duration_ms": 2,
-    "created_at": "2026-11-06T18:11:24.846Z",
-    "finished_at": "2026-11-06T18:11:24.851Z"
+    "created_at": "2026-11-06T19:50:02.684Z",
+    "finished_at": "2026-11-06T19:50:02.688Z"
   },
   {
-    "id": "a17cec1a-4b8e-49e7-bb07-49b486ab0e82",
+    "id": "03868fbc-cf95-4d5e-9e64-b29ae7f58436",
     "kind": "storyboard",
     "target_type": "stage",
-    "target_id": "11191ca4-2063-4679-9b00-0916bdb7ff0e",
-    "theme_id": "5faa02b2-981b-4669-b283-da834ae1af23",
+    "target_id": "4ff73349-91e0-4d70-a3ad-ec367315197c",
+    "theme_id": "f7949748-c172-4283-9c9b-8bef12855a2f",
     "version": 1,
     "status": "succeeded",
     "note": null,
     "skill_version": "1",
     "skill_hash": "1379bb93dd",
     "inputs": {
-      "script_generation_id": "6199f77a-3ef5-4201-aa6a-02ea5be81d77"
+      "script_generation_id": "90d67802-a073-4848-82c9-7f66d167689f"
     },
     "output": {
       "style": "Desenho animado 2D, traço arredondado e limpo, cores vivas e fundo claro. Paleta principal: azul (#2f6fde), amarelo, laranja e verde. Números e contas aparecem grandes, como se fossem escritos num quadro. Objetos contáveis (frutas, bolinhas, brinquedos) aparecem em fileiras organizadas, para a criança conseguir contar na tela.",
@@ -605,85 +605,123 @@
         {
           "scene_number": 1,
           "caption": "Nico entra pulando no meio da tela e vira o número 1, depois o 2, depois o 3, como mágica. Fundo azul-claro com estrelinhas.",
-          "image_path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/storyboard-v1/cena-01.svg"
+          "image_path": "media/themes/f7949748-c172-4283-9c9b-8bef12855a2f/storyboard-v1/cena-01.svg"
         },
         {
           "scene_number": 2,
           "caption": "Bia na feira segurando uma cesta com 2 mangas. A vovó entrega mais 3 mangas. Cada fruta brilha quando aparece.",
-          "image_path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/storyboard-v1/cena-02.svg"
+          "image_path": "media/themes/f7949748-c172-4283-9c9b-8bef12855a2f/storyboard-v1/cena-02.svg"
         },
         {
           "scene_number": 3,
           "caption": "As 5 mangas ficam em fila. Cada uma acende com um número em cima: 1, 2, 3, 4, 5. Nico vira o número 5 e comemora.",
-          "image_path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/storyboard-v1/cena-03.svg"
+          "image_path": "media/themes/f7949748-c172-4283-9c9b-8bef12855a2f/storyboard-v1/cena-03.svg"
         },
         {
           "scene_number": 4,
           "caption": "Nico se divide em três partes: o número 2, o sinal de mais e o número 3. As partes se abraçam e viram o número 5. A conta 2 + 3 = 5 aparece bem grande.",
-          "image_path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/storyboard-v1/cena-04.svg"
+          "image_path": "media/themes/f7949748-c172-4283-9c9b-8bef12855a2f/storyboard-v1/cena-04.svg"
         },
         {
           "scene_number": 5,
           "caption": "Parquinho colorido com 4 crianças no escorregador. Uma criança chega correndo e acenando. A placa do parquinho muda de 4 para 5.",
-          "image_path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/storyboard-v1/cena-05.svg"
+          "image_path": "media/themes/f7949748-c172-4283-9c9b-8bef12855a2f/storyboard-v1/cena-05.svg"
         },
         {
           "scene_number": 6,
           "caption": "Duas mãos de criança: uma com 3 dedos levantados e outra com 2. Os dedos acendem um por um e aparece o número 5.",
-          "image_path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/storyboard-v1/cena-06.svg"
+          "image_path": "media/themes/f7949748-c172-4283-9c9b-8bef12855a2f/storyboard-v1/cena-06.svg"
         },
         {
           "scene_number": 7,
           "caption": "Nico, Bia e a vovó dançam com mangas que pulam no ritmo. A letra aparece embaixo, palavra por palavra.",
-          "image_path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/storyboard-v1/cena-07.svg"
+          "image_path": "media/themes/f7949748-c172-4283-9c9b-8bef12855a2f/storyboard-v1/cena-07.svg"
         },
         {
           "scene_number": 8,
           "caption": "Três cartões aparecem um de cada vez: uma cesta juntando frutas, uma criança chegando no parquinho e um sinal de mais gigante. Nico aponta cada cartão.",
-          "image_path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/storyboard-v1/cena-08.svg"
+          "image_path": "media/themes/f7949748-c172-4283-9c9b-8bef12855a2f/storyboard-v1/cena-08.svg"
         }
       ],
       "notes_applied": null
     },
     "error": null,
     "cost_usd": 0,
-    "duration_ms": 20,
-    "created_at": "2026-11-06T18:11:24.864Z",
-    "finished_at": "2026-11-06T18:11:24.886Z"
+    "duration_ms": 13,
+    "created_at": "2026-11-06T19:50:02.698Z",
+    "finished_at": "2026-11-06T19:50:02.713Z"
   },
   {
-    "id": "f09c2ad7-99f1-496a-a12a-061f02705b95",
+    "id": "bfef5c42-4d19-458e-a011-b429b67d1de0",
     "kind": "video",
     "target_type": "stage",
-    "target_id": "a5913b9e-1f42-4458-ae81-faa2be3a148d",
-    "theme_id": "5faa02b2-981b-4669-b283-da834ae1af23",
+    "target_id": "7b51b559-8e7a-414e-bfcf-9ee71c1727f3",
+    "theme_id": "f7949748-c172-4283-9c9b-8bef12855a2f",
     "version": 1,
     "status": "succeeded",
     "note": null,
     "skill_version": "1",
     "skill_hash": "f79163c5a9",
     "inputs": {
-      "script_generation_id": "6199f77a-3ef5-4201-aa6a-02ea5be81d77",
-      "storyboard_generation_id": "a17cec1a-4b8e-49e7-bb07-49b486ab0e82"
+      "script_generation_id": "90d67802-a073-4848-82c9-7f66d167689f",
+      "storyboard_generation_id": "03868fbc-cf95-4d5e-9e64-b29ae7f58436"
     },
     "output": {
-      "format": "animatic",
-      "path": "media/themes/5faa02b2-981b-4669-b283-da834ae1af23/video-v1/video.json",
-      "duration_sec": 111,
+      "format": "mp4",
+      "path": "media/themes/f7949748-c172-4283-9c9b-8bef12855a2f/video-v1/video.mp4",
+      "subtitles_path": "media/themes/f7949748-c172-4283-9c9b-8bef12855a2f/video-v1/legenda.vtt",
+      "duration_sec": 79.4,
+      "quiz": [
+        {
+          "question": "A Bia tinha 2 mangas e ganhou mais 3. Quantas ela tem agora?",
+          "options": [
+            "4",
+            "5",
+            "6"
+          ],
+          "answer_index": 1,
+          "explanation": "Dois mais três é igual a cinco. Junta e conta: 1, 2, 3, 4, 5!"
+        },
+        {
+          "question": "Qual sinal quer dizer \"junta\"?",
+          "options": [
+            "+",
+            "−",
+            "="
+          ],
+          "answer_index": 0,
+          "explanation": "O sinal de mais (+) quer dizer juntar."
+        },
+        {
+          "question": "Tinha 4 crianças no parquinho e chegou mais 1. Quantas crianças tem agora?",
+          "options": [
+            "3",
+            "41",
+            "5"
+          ],
+          "answer_index": 2,
+          "explanation": "Chegou mais um: 4 mais 1 é igual a 5."
+        }
+      ],
+      "review": [
+        "Somar é juntar dois grupos ou ganhar mais.",
+        "O sinal de mais (+) quer dizer: junta!",
+        "Para achar o resultado, conte tudo junto: 2 + 3 = 5."
+      ],
       "notes_applied": null
     },
     "error": null,
     "cost_usd": 0,
-    "duration_ms": 55,
-    "created_at": "2026-11-06T18:11:24.903Z",
-    "finished_at": "2026-11-06T18:11:24.961Z"
+    "duration_ms": 33886,
+    "created_at": "2026-11-06T19:50:02.725Z",
+    "finished_at": "2026-11-06T19:50:36.612Z"
   },
   {
-    "id": "993491c1-4b44-414a-952e-e62d72c45e8a",
+    "id": "2ab43136-c837-4ae3-80d0-c6ff59253ad6",
     "kind": "script",
     "target_type": "stage",
-    "target_id": "1d5e1377-8674-481a-9ae4-f61692a6c989",
-    "theme_id": "186c5efb-d4b3-4800-b858-88d35dd59cab",
+    "target_id": "b62aea23-a104-4bd2-8963-fca20a9a2c5f",
+    "theme_id": "a0349a9d-0400-4385-a3ac-95324c2e99f9",
     "version": 1,
     "status": "succeeded",
     "note": null,
@@ -850,23 +888,23 @@
     },
     "error": null,
     "cost_usd": 0,
-    "duration_ms": 3,
-    "created_at": "2026-11-06T18:11:24.979Z",
-    "finished_at": "2026-11-06T18:11:24.985Z"
+    "duration_ms": 4,
+    "created_at": "2026-11-06T19:50:36.630Z",
+    "finished_at": "2026-11-06T19:50:36.637Z"
   },
   {
-    "id": "cb30c44d-66d6-4ac1-841f-284466b2e243",
+    "id": "533ecab2-490b-43a2-8d19-c9852ce743ea",
     "kind": "storyboard",
     "target_type": "stage",
-    "target_id": "51081358-4bde-4c48-8f07-97e56f0ca714",
-    "theme_id": "186c5efb-d4b3-4800-b858-88d35dd59cab",
+    "target_id": "55aa80d8-5ccb-4647-af49-c8275e23e4ed",
+    "theme_id": "a0349a9d-0400-4385-a3ac-95324c2e99f9",
     "version": 1,
     "status": "succeeded",
     "note": null,
     "skill_version": "1",
     "skill_hash": "1379bb93dd",
     "inputs": {
-      "script_generation_id": "993491c1-4b44-414a-952e-e62d72c45e8a"
+      "script_generation_id": "2ab43136-c837-4ae3-80d0-c6ff59253ad6"
     },
     "output": {
       "style": "Desenho animado 2D, traço arredondado e limpo, cores vivas e fundo claro. Paleta principal: azul (#2f6fde), amarelo, laranja e verde. Números e contas aparecem grandes, como se fossem escritos num quadro. Objetos contáveis (frutas, bolinhas, brinquedos) aparecem em fileiras organizadas, para a criança conseguir contar na tela.",
@@ -874,58 +912,58 @@
         {
           "scene_number": 1,
           "caption": "Nico ao lado de um monte enorme de bolinhas de gude coloridas espalhadas no chão. Ele coça a cabeça, confuso.",
-          "image_path": "media/themes/186c5efb-d4b3-4800-b858-88d35dd59cab/storyboard-v1/cena-01.svg"
+          "image_path": "media/themes/a0349a9d-0400-4385-a3ac-95324c2e99f9/storyboard-v1/cena-01.svg"
         },
         {
           "scene_number": 2,
           "caption": "Gaussinho sai de uma máquina do tempo de papelão, com roupa antiga e cabelo bagunçado, acenando para o Nico.",
-          "image_path": "media/themes/186c5efb-d4b3-4800-b858-88d35dd59cab/storyboard-v1/cena-02.svg"
+          "image_path": "media/themes/a0349a9d-0400-4385-a3ac-95324c2e99f9/storyboard-v1/cena-02.svg"
         },
         {
           "scene_number": 3,
           "caption": "As bolinhas de gude pulam para dentro de saquinhos transparentes, 10 em cada um. O número 10 aparece em cada saquinho.",
-          "image_path": "media/themes/186c5efb-d4b3-4800-b858-88d35dd59cab/storyboard-v1/cena-03.svg"
+          "image_path": "media/themes/a0349a9d-0400-4385-a3ac-95324c2e99f9/storyboard-v1/cena-03.svg"
         },
         {
           "scene_number": 4,
           "caption": "Cinco saquinhos em fila. Nico vira o número 10, 20, 30, 40 e 50 conforme pula em cima de cada saquinho.",
-          "image_path": "media/themes/186c5efb-d4b3-4800-b858-88d35dd59cab/storyboard-v1/cena-04.svg"
+          "image_path": "media/themes/a0349a9d-0400-4385-a3ac-95324c2e99f9/storyboard-v1/cena-04.svg"
         },
         {
           "scene_number": 5,
           "caption": "Dez saquinhos formam uma escada. Nico sobe degrau por degrau, mudando de número, até virar um 100 gigante com fogos de artifício.",
-          "image_path": "media/themes/186c5efb-d4b3-4800-b858-88d35dd59cab/storyboard-v1/cena-05.svg"
+          "image_path": "media/themes/a0349a9d-0400-4385-a3ac-95324c2e99f9/storyboard-v1/cena-05.svg"
         },
         {
           "scene_number": 6,
           "caption": "Três saquinhos cheios e 4 bolinhas de gude soltas ao lado. Aparece 30 + 4 = 34, com cores diferentes para as dezenas e as unidades.",
-          "image_path": "media/themes/186c5efb-d4b3-4800-b858-88d35dd59cab/storyboard-v1/cena-06.svg"
+          "image_path": "media/themes/a0349a9d-0400-4385-a3ac-95324c2e99f9/storyboard-v1/cena-06.svg"
         },
         {
           "scene_number": 7,
           "caption": "Nico e Gaussinho dançam em cima dos saquinhos. A cada \"dez\" um saquinho acende. A letra aparece embaixo.",
-          "image_path": "media/themes/186c5efb-d4b3-4800-b858-88d35dd59cab/storyboard-v1/cena-07.svg"
+          "image_path": "media/themes/a0349a9d-0400-4385-a3ac-95324c2e99f9/storyboard-v1/cena-07.svg"
         },
         {
           "scene_number": 8,
           "caption": "Três cartões: um monte bagunçado, saquinhos de 10 arrumados e o número 100. Gaussinho dá um joinha.",
-          "image_path": "media/themes/186c5efb-d4b3-4800-b858-88d35dd59cab/storyboard-v1/cena-08.svg"
+          "image_path": "media/themes/a0349a9d-0400-4385-a3ac-95324c2e99f9/storyboard-v1/cena-08.svg"
         }
       ],
       "notes_applied": null
     },
     "error": null,
     "cost_usd": 0,
-    "duration_ms": 15,
-    "created_at": "2026-11-06T18:11:25.002Z",
-    "finished_at": "2026-11-06T18:11:25.019Z"
+    "duration_ms": 16,
+    "created_at": "2026-11-06T19:50:36.652Z",
+    "finished_at": "2026-11-06T19:50:36.672Z"
   },
   {
-    "id": "d22ef862-3575-4885-8f4a-7ef43295d84d",
+    "id": "a9f3162e-0733-4fd4-a608-501dacab2b05",
     "kind": "script",
     "target_type": "stage",
-    "target_id": "bb9b7ea8-471b-4a0f-8904-65444c03ddf7",
-    "theme_id": "5ff4f1b5-0be6-4345-8f95-7ef1bf878d66",
+    "target_id": "ae7591b4-4e04-41fc-8d3f-90c3745aaaeb",
+    "theme_id": "35fa638c-9b66-477c-93ac-2d977820cc8e",
     "version": 1,
     "status": "succeeded",
     "note": null,
@@ -1053,16 +1091,16 @@
     },
     "error": null,
     "cost_usd": 0,
-    "duration_ms": 4,
-    "created_at": "2026-11-06T18:11:25.029Z",
-    "finished_at": "2026-11-06T18:11:25.035Z"
+    "duration_ms": 3,
+    "created_at": "2026-11-06T19:50:36.684Z",
+    "finished_at": "2026-11-06T19:50:36.690Z"
   },
   {
-    "id": "8c8f0fa1-82b3-480b-ad5c-3887338682e4",
+    "id": "f9889b7a-4415-4c0e-b18d-dd35c8912030",
     "kind": "script",
     "target_type": "stage",
-    "target_id": "b3d82c0d-c310-4074-9b31-cf5a7fa36d3c",
-    "theme_id": "910dd9d8-e6e0-4301-b4c4-76a4ecd42c32",
+    "target_id": "b75b80a3-2da0-4d4d-be10-7a20be85089e",
+    "theme_id": "75d6fdaa-edf1-4929-ad9c-d07ed084ff5f",
     "version": 1,
     "status": "succeeded",
     "note": null,
@@ -1196,7 +1234,7 @@
     "error": null,
     "cost_usd": 0,
     "duration_ms": 3,
-    "created_at": "2026-11-06T18:11:25.046Z",
-    "finished_at": "2026-11-06T18:11:25.052Z"
+    "created_at": "2026-11-06T19:50:36.700Z",
+    "finished_at": "2026-11-06T19:50:36.706Z"
   }
 ]
