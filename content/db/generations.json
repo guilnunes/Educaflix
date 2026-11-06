@@ -1236,5 +1236,70 @@
     "duration_ms": 3,
     "created_at": "2026-11-06T19:50:36.700Z",
     "finished_at": "2026-11-06T19:50:36.706Z"
+  },
+  {
+    "id": "7e220c29-420a-4886-a354-8020476e8003",
+    "kind": "video",
+    "target_type": "stage",
+    "target_id": "7b51b559-8e7a-414e-bfcf-9ee71c1727f3",
+    "theme_id": "f7949748-c172-4283-9c9b-8bef12855a2f",
+    "version": 2,
+    "status": "succeeded",
+    "note": "Teste com a voz Michele e a música da ElevenLabs.",
+    "skill_version": "1",
+    "skill_hash": "f79163c5a9",
+    "inputs": {
+      "script_generation_id": "90d67802-a073-4848-82c9-7f66d167689f",
+      "storyboard_generation_id": "03868fbc-cf95-4d5e-9e64-b29ae7f58436"
+    },
+    "output": {
+      "format": "mp4",
+      "path": "media/themes/f7949748-c172-4283-9c9b-8bef12855a2f/video-v2/video.mp4",
+      "subtitles_path": "media/themes/f7949748-c172-4283-9c9b-8bef12855a2f/video-v2/legenda.vtt",
+      "duration_sec": 97.72,
+      "quiz": [
+        {
+          "question": "A Bia tinha 2 mangas e ganhou mais 3. Quantas ela tem agora?",
+          "options": [
+            "4",
+            "5",
+            "6"
+          ],
+          "answer_index": 1,
+          "explanation": "Dois mais três é igual a cinco. Junta e conta: 1, 2, 3, 4, 5!"
+        },
+        {
+          "question": "Qual sinal quer dizer \"junta\"?",
+          "options": [
+            "+",
+            "−",
+            "="
+          ],
+          "answer_index": 0,
+          "explanation": "O sinal de mais (+) quer dizer juntar."
+        },
+        {
+          "question": "Tinha 4 crianças no parquinho e chegou mais 1. Quantas crianças tem agora?",
+          "options": [
+            "3",
+            "41",
+            "5"
+          ],
+          "answer_index": 2,
+          "explanation": "Chegou mais um: 4 mais 1 é igual a 5."
+        }
+      ],
+      "review": [
+        "Somar é juntar dois grupos ou ganhar mais.",
+        "O sinal de mais (+) quer dizer: junta!",
+        "Para achar o resultado, conte tudo junto: 2 + 3 = 5."
+      ],
+      "notes_applied": "Teste com a voz Michele e a música da ElevenLabs."
+    },
+    "error": null,
+    "cost_usd": 0.1488,
+    "duration_ms": 46275,
+    "created_at": "2026-11-06T20:17:13.887Z",
+    "finished_at": "2026-11-06T20:18:00.165Z"
   }
 ]
