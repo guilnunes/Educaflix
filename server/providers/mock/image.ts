@@ -36,7 +36,7 @@ function drawScene(req: ImageRequest): string {
     </linearGradient>
   </defs>`);
   parts.push(`<rect width="${W}" height="${H}" fill="url(#sky)"/>`);
-  parts.push(`<rect x="0" y="470" width="${W}" height="${H - 470}" fill="${pal.ground}"/>`);
+  parts.push(`<rect x="0" y="540" width="${W}" height="${H - 540}" fill="${pal.ground}"/>`);
   parts.push(decorations(scene, pal.accents));
 
   // Selo da cena e título
@@ -52,16 +52,10 @@ function drawScene(req: ImageRequest): string {
     parts.push(text(900, 155 + size / 3, t, { size, weight: 700, fill: '#ffffff', anchor: 'middle' }));
   }
 
-  parts.push(mascot(subject, scene, 270, 420));
-  if (guest) parts.push(person(1080, 455, guest.name, pal.accents[1]));
-  parts.push(objects(count, guest ? 560 : 620, guest ? 940 : 1200, 300, scene, pal.accents));
+  parts.push(mascot(subject, scene, 280, 520));
+  if (guest) parts.push(person(1080, 540, guest.name, pal.accents[1]));
+  parts.push(objects(count, guest ? 560 : 620, guest ? 940 : 1200, 330, scene, pal.accents));
 
-  // Legenda com a descrição visual
-  const lines = wrap(scene.visual, 92).slice(0, 3);
-  parts.push(`<rect x="32" y="${H - 150}" rx="16" width="${W - 64}" height="126" fill="#ffffff" stroke="#d5dbe6" stroke-width="2"/>`);
-  lines.forEach((line, i) =>
-    parts.push(text(56, H - 112 + i * 32, line, { size: 22, fill: '#2b3445' })),
-  );
   parts.push(text(W - 40, H - 6, 'storyboard de exemplo (mock)', { size: 14, fill: '#8892a6', anchor: 'end' }));
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="'Baloo 2', 'Nunito', 'Trebuchet MS', 'Segoe UI', sans-serif">\n${parts.join('\n')}\n</svg>\n`;
@@ -74,7 +68,7 @@ function mascot(subject: Subject, scene: ScriptScene, cx: number, baseY: number)
   if (subject.id === 'matematica') {
     const n = pickNumber(scene) ?? 1;
     const label = String(n);
-    const size = label.length >= 3 ? 170 : label.length === 2 ? 220 : 300;
+    const size = label.length >= 3 ? 190 : label.length === 2 ? 250 : 330;
     out.push(
       `<text x="${cx}" y="${baseY}" font-size="${size}" font-weight="900" text-anchor="middle" fill="${subject.color}" stroke="#ffffff" stroke-width="12" paint-order="stroke" stroke-linejoin="round">${label}</text>`,
     );
@@ -120,7 +114,7 @@ function objects(count: number, x0: number, x1: number, y0: number, scene: Scrip
     const r = Math.floor(i / perRow);
     const c = i % perRow;
     const x = x0 + step / 2 + c * step;
-    const y = y0 + r * 110 + (rows === 1 ? 55 : 0);
+    const y = y0 + r * 120 + (rows === 1 ? 60 : 0);
     const color = colors[i % colors.length];
     if (kind === 'banana') {
       out.push(`<path d="M ${x - 36} ${y - 10} Q ${x} ${y + 40} ${x + 36} ${y - 10} Q ${x} ${y + 18} ${x - 36} ${y - 10} Z" fill="#ffd23f" stroke="#c99a12" stroke-width="3"/>`);
@@ -179,20 +173,6 @@ function pickNumber(scene: ScriptScene): number | null {
 function pickCount(scene: ScriptScene) {
   const n = pickNumber(scene);
   return n && n <= 10 ? n : 3;
-}
-
-function wrap(s: string, max: number) {
-  const words = s.split(/\s+/);
-  const lines: string[] = [];
-  let cur = '';
-  for (const w of words) {
-    if ((cur + ' ' + w).trim().length > max) {
-      lines.push(cur);
-      cur = w;
-    } else cur = (cur + ' ' + w).trim();
-  }
-  if (cur) lines.push(cur);
-  return lines;
 }
 
 function shorten(s: string, max: number) {
