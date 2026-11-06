@@ -5,8 +5,8 @@ import react from '@vitejs/plugin-react';
 // em BASE_PATH (vem do actions/configure-pages). Localmente usamos "/".
 const API_PORT = Number(process.env.API_PORT ?? 8787);
 
-export default defineConfig(({ command }) => ({
-  base: process.env.BASE_PATH ?? (command === 'build' ? '/Educaflix/' : '/'),
+export default defineConfig(({ command, isPreview }) => ({
+  base: process.env.BASE_PATH ?? (command === 'build' || isPreview ? '/Educaflix/' : '/'),
   plugins: [react()],
   server: {
     port: 5173,
